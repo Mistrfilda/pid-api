@@ -1,0 +1,25 @@
+language: php
+
+php:
+  - 7.3
+
+matrix:
+  fast_finish: true
+
+install:
+  - composer install --no-interaction -o
+
+script:
+  - composer lint
+  - composer stan
+  - composer cs
+
+#after_script:
+#  - composer global require php-coveralls/php-coveralls ^2.1.0
+#  - ~/.composer/vendor/bin/php-coveralls --verbose --config tests/.coveralls.yml
+
+sudo: false
+
+cache:
+  directories:
+    - $HOME/.composer/cache
