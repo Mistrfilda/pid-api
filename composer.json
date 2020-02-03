@@ -6,7 +6,9 @@
 	"php": ">=7.3",
 	"guzzlehttp/guzzle": "^6.3",
 	"nette/utils": "^3.0",
-	"nette/schema": "^1.0"
+	"nette/schema": "^1.0",
+	"psr/http-message": "^1.0",
+	"psr/http-client": "^1.0"
   },
   "require-dev": {
 	"phpstan/phpstan": "^0.12",
@@ -26,8 +28,8 @@
   "scripts": {
 	"stan": "vendor/bin/phpstan analyse -l 7 -c phpstan.neon src --ansi",
 	"lint": "vendor/bin/parallel-lint --colors src/",
-	"cs": "vendor/bin/ecs -c ecs.yaml check",
-	"cs-fix": "vendor/bin/ecs -c ecs.yaml check --fix",
+	"cs": "vendor/bin/ecs -c ecs.yaml check src --ansi",
+	"cs-fix": "vendor/bin/ecs -c ecs.yaml check src --fix --ansi",
 	"build-all": "composer lint && composer stan && composer cs"
   }
 }
