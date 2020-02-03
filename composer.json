@@ -9,25 +9,25 @@
 	"nette/schema": "^1.0"
   },
   "require-dev": {
-	"phpstan/phpstan": "^0.11",
-	"phpstan/phpstan-strict-rules": "^0.11",
+	"phpstan/phpstan": "^0.12",
+	"phpstan/phpstan-strict-rules": "^0.12",
 	"nette/tester": "^2.2",
 	"jakub-onderka/php-parallel-lint": "^1.0",
 	"tracy/tracy": "^2.6",
 	"roave/security-advisories": "dev-master",
 	"mockery/mockery": "^1.2",
-    "consistence/coding-standard": "^3.8"
+    "symplify/easy-coding-standard-prefixed": "^7.2"
   },
   "autoload": {
-	"classmap": [
-	  "src/"
-	]
+	"psr-4": {
+	  "Ofce\\Pid\\Api\\": "src"
+	}
   },
   "scripts": {
 	"stan": "vendor/bin/phpstan analyse -l 7 -c phpstan.neon src --ansi",
 	"lint": "vendor/bin/parallel-lint --colors src/",
-	"cs": "vendor/bin/phpcs --standard=vendor/consistence/coding-standard/Consistence/ruleset.xml --extensions=php --encoding=utf-8 -sp src",
-	"cs-fix": "vendor/bin/phpcbf --standard=vendor/consistence/coding-standard/Consistence/ruleset.xml --extensions=php --encoding=utf-8 -sp src",
+	"cs": "vendor/bin/ecs -c ecs.yaml check",
+	"cs-fix": "vendor/bin/ecs -c ecs.yaml check --fix",
 	"build-all": "composer lint && composer stan && composer cs"
   }
 }

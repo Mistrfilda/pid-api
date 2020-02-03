@@ -1,0 +1,7 @@
+parameters:
+  sets:
+    - 'clean-code'
+    - 'psr12'
+    - 'php71'
+    - 'common'
+    - 'php-cs-fixer-psr2'
