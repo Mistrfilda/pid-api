@@ -16,6 +16,19 @@ class StopResponse extends Response
     /** @var Stop[] */
     private $stops;
 
+    public function getCount(): int
+    {
+        return $this->count;
+    }
+
+    /**
+     * @return Stop[]
+     */
+    public function getStops(): array
+    {
+        return $this->stops;
+    }
+
     protected function createFromArrayResponse(\stdClass $response): void
     {
         $count = 0;

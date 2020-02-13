@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Ofce\Pid\Api;
 
 use GuzzleHttp\Psr7\Request as GuzzleRequest;
+use Ofce\Pid\Api\Client\ClientFactory;
 use Ofce\Pid\Api\Client\IClientFactory;
 use Ofce\Pid\Api\Http\Request\Request;
 use Ofce\Pid\Api\Http\Response\InvalidResponseException;
@@ -28,12 +29,17 @@ class PidService
     private $client;
 
     public function __construct(
-        string $baseUri,
         string $accessToken,
-        IClientFactory $clientFactory
+        string $baseUri = self::BASE_URI,
+        ?IClientFactory $clientFactory = null
     ) {
         $this->baseUri = $baseUri;
         $this->accessToken = $accessToken;
+
+        if ($clientFactory === null) {
+            $clientFactory = new ClientFactory();
+        }
+
         $this->client = $clientFactory->createClient();
     }
 
