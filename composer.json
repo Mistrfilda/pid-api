@@ -1,5 +1,5 @@
 {
-  "name": "ofce/pid-api",
+  "name": "mistrfilda/pid-api-wrapper",
   "license": "MIT",
   "description": "PID api integration using guzzle/http client",
   "require": {
