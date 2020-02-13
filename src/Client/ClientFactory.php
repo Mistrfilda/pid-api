@@ -11,7 +11,7 @@ class ClientFactory implements IClientFactory
     /**
      * @param array<string> $parameters
      */
-    public function createClient(array $parameters): ClientInterface
+    public function createClient(array $parameters = []): ClientInterface
     {
         return new GuzzlePsr18Client($parameters);
     }

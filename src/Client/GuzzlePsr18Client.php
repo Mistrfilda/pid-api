@@ -18,7 +18,7 @@ class GuzzlePsr18Client extends GuzzleClient implements ClientInterface
         try {
             return $this->send($request);
         } catch (BadResponseException $e) {
-            return $e->getResponse();
+            throw new ClientException($e->getMessage(), $request, $e->getResponse(), $e);
         } catch (Exception $e) {
             throw new ClientException($e->getMessage(), $request, null, $e);
         }

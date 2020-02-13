@@ -11,5 +11,5 @@ interface IClientFactory
     /**
      * @param array<string> $parameters
      */
-    public function createClient(array $parameters): ClientInterface;
+    public function createClient(array $parameters = []): ClientInterface;
 }

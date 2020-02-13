@@ -4,11 +4,20 @@ declare(strict_types=1);
 
 namespace Ofce\Pid\Api;
 
+use GuzzleHttp\Psr7\Request as GuzzleRequest;
 use Ofce\Pid\Api\Client\IClientFactory;
+use Ofce\Pid\Api\Http\Request\Request;
+use Ofce\Pid\Api\Http\Response\InvalidResponseException;
+use Ofce\Pid\Api\Http\Response\Response;
+use Ofce\Pid\Api\Http\UrlFactory;
+use Ofce\Pid\Api\Stop\StopRequest;
+use Ofce\Pid\Api\Stop\StopResponse;
 use Psr\Http\Client\ClientInterface;
 
 class PidService
 {
+    public const BASE_URI = 'https://api.golemio.cz/v1';
+
     /** @var string */
     private $baseUri;
 
@@ -25,7 +34,7 @@ class PidService
     ) {
         $this->baseUri = $baseUri;
         $this->accessToken = $accessToken;
-        $this->client = $clientFactory->createClient(['base_uri' => $baseUri]);
+        $this->client = $clientFactory->createClient();
     }
 
     public function getBaseUri(): string
@@ -41,5 +50,37 @@ class PidService
     public function getClient(): ClientInterface
     {
         return $this->client;
+    }
+
+    public function sendGetStopsRequest(int $limit, int $offset): StopResponse
+    {
+        $request = new StopRequest($limit, $offset);
+        $response = $this->sendRequest($request);
+
+        if (! $response instanceof StopResponse) {
+            throw new InvalidResponseException('Invalid response returned from request');
+        }
+
+        return $response;
+    }
+
+    private function sendRequest(Request $request): Response
+    {
+        $urlFactory = new UrlFactory(self::BASE_URI, $request->getEndpoint());
+
+        if ($request->hasQueryParameters()) {
+            $urlFactory->addParameters($request->getQueryParameters());
+        }
+
+        $guzzleRequest = new GuzzleRequest(
+            $request->getMethod(),
+            $urlFactory->getUrl(),
+            [
+                'x-access-token' => $this->accessToken,
+            ]
+        );
+
+        $response = $this->client->sendRequest($guzzleRequest);
+        return $request->processResponse($response);
     }
 }
