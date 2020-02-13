@@ -19,7 +19,7 @@
 	"tracy/tracy": "^2.6",
 	"roave/security-advisories": "dev-master",
 	"mockery/mockery": "^1.2",
-    "symplify/easy-coding-standard-prefixed": "^7.2"
+	"symplify/easy-coding-standard-prefixed": "^7.2"
   },
   "autoload": {
 	"psr-4": {
