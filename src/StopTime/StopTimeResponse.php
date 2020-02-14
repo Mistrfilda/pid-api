@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ofce\Pid\Api\StopTimes;
+namespace Ofce\Pid\Api\StopTime;
 
 use Nette\Schema\Expect;
 use Nette\Schema\Schema;
@@ -37,10 +37,10 @@ class StopTimeResponse extends Response
         $count = 0;
         foreach ($response as $stopTime) {
             $this->stopTimes[] = new StopTime(
-                $stopTime->arrival_time,
-                $stopTime->departure_time,
-                $stopTime->trip_id,
-                $stopTime->stop_sequence
+                $stopTime['arrival_time'],
+                $stopTime['departure_time'],
+                $stopTime['trip_id'],
+                $stopTime['stop_sequence']
             );
             $count++;
         }
@@ -64,7 +64,7 @@ class StopTimeResponse extends Response
                 'stop_sequence' => Expect::int(),
                 'timepoint' => Expect::anyOf(Expect::string(), Expect::int())->nullable(),
                 'trip_id' => Expect::string(),
-            ])
+            ])->castTo('array')
         );
     }
 }
