@@ -16,7 +16,7 @@ class UrlFactory
         $this->url = new Url($baseUrl . '/' . $endpointUrl);
     }
 
-    public function addParameter(string $key, $value): void
+    public function addParameter(string $key, string $value): void
     {
         $this->url->setQueryParameter($key, $value);
     }

@@ -15,14 +15,19 @@ class Stop
     /** @var float */
     private $longitude;
 
+    /** @var string */
+    private $name;
+
     public function __construct(
         string $stopId,
         float $latitude,
-        float $longitude
+        float $longitude,
+        string $name
     ) {
         $this->stopId = $stopId;
         $this->latitude = $latitude;
         $this->longitude = $longitude;
+        $this->name = $name;
     }
 
     public function getStopId(): string
@@ -38,5 +43,10 @@ class Stop
     public function getLongitude(): float
     {
         return $this->longitude;
+    }
+
+    public function getName(): string
+    {
+        return $this->name;
     }
 }

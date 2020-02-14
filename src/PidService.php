@@ -13,6 +13,8 @@ use Ofce\Pid\Api\Http\Response\Response;
 use Ofce\Pid\Api\Http\UrlFactory;
 use Ofce\Pid\Api\Stop\StopRequest;
 use Ofce\Pid\Api\Stop\StopResponse;
+use Ofce\Pid\Api\StopTimes\StopTimeRequest;
+use Ofce\Pid\Api\StopTimes\StopTimeResponse;
 use Psr\Http\Client\ClientInterface;
 
 class PidService
@@ -64,6 +66,18 @@ class PidService
         $response = $this->sendRequest($request);
 
         if (! $response instanceof StopResponse) {
+            throw new InvalidResponseException('Invalid response returned from request');
+        }
+
+        return $response;
+    }
+
+    public function sendGetStopTimesRequest(string $stopId, int $limit, int $offset): StopTimeResponse
+    {
+        $request = new StopTimeRequest($stopId, $limit, $offset);
+        $response = $this->sendRequest($request);
+
+        if (! $response instanceof StopTimeResponse) {
             throw new InvalidResponseException('Invalid response returned from request');
         }
 

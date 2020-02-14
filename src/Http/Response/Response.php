@@ -26,13 +26,17 @@ abstract class Response
 
     /**
      * @param mixed[] $response
+     * @return array<mixed, mixed>
      */
-    protected function validateResponse(array $response): \stdClass
+    protected function validateResponse(array $response): array
     {
         return (new Processor())->process($this->getResponseSchema(), $response);
     }
 
-    abstract protected function createFromArrayResponse(\stdClass $response): void;
+    /**
+     * @param array<mixed, mixed> $response
+     */
+    abstract protected function createFromArrayResponse(array $response): void;
 
     abstract protected function getResponseSchema(): Schema;
 }
