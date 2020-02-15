@@ -18,6 +18,8 @@ use Ofce\Pid\Api\StopTime\StopTimeRequest;
 use Ofce\Pid\Api\StopTime\StopTimeResponse;
 use Ofce\Pid\Api\Trip\TripRequest;
 use Ofce\Pid\Api\Trip\TripResponse;
+use Ofce\Pid\Api\VehiclePosition\VehiclePositionRequest;
+use Ofce\Pid\Api\VehiclePosition\VehiclePositionResponse;
 use Psr\Http\Client\ClientInterface;
 
 class PidService
@@ -101,6 +103,28 @@ class PidService
         $response = $this->sendRequest($request);
 
         if (! $response instanceof TripResponse) {
+            throw new InvalidResponseException('Invalid response returned from request');
+        }
+
+        return $response;
+    }
+
+    public function sendGetVehiclePositionRequest(
+        int $limit = 100,
+        int $offset = 0,
+        ?string $routeId = null,
+        ?string $routeShortName = null
+    ): VehiclePositionResponse {
+        $request = new VehiclePositionRequest(
+            $limit,
+            $offset,
+            $routeId,
+            $routeShortName
+        );
+
+        $response = $this->sendRequest($request);
+
+        if (! $response instanceof VehiclePositionResponse) {
             throw new InvalidResponseException('Invalid response returned from request');
         }
 

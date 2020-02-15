@@ -38,8 +38,8 @@ class StopResponse extends Response
         foreach ($response['features'] as $stop) {
             $this->stops[] = new Stop(
                 $stop['properties']['stop_id'],
-                $stop['geometry']['coordinates'][0],
                 $stop['geometry']['coordinates'][1],
+                $stop['geometry']['coordinates'][0],
                 $stop['properties']['stop_name']
             );
             $count++;
