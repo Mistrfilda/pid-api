@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Ofce\Pid\Api;
 
+use DateTimeImmutable;
 use GuzzleHttp\Psr7\Request as GuzzleRequest;
 use Ofce\Pid\Api\Client\ClientFactory;
 use Ofce\Pid\Api\Client\IClientFactory;
@@ -74,9 +75,13 @@ class PidService
         return $response;
     }
 
-    public function sendGetStopTimesRequest(string $stopId, int $limit, int $offset): StopTimeResponse
-    {
-        $request = new StopTimeRequest($stopId, $limit, $offset);
+    public function sendGetStopTimesRequest(
+        string $stopId,
+        int $limit = 100,
+        int $offset = 0,
+        ?DateTimeImmutable $date = null
+    ): StopTimeResponse {
+        $request = new StopTimeRequest($stopId, $limit, $offset, $date);
         $response = $this->sendRequest($request);
 
         if (! $response instanceof StopTimeResponse) {
@@ -86,9 +91,13 @@ class PidService
         return $response;
     }
 
-    public function sendGetStopTripsRequest(string $stopId, int $limit, int $offset): TripResponse
-    {
-        $request = new TripRequest($stopId, $limit, $offset);
+    public function sendGetStopTripsRequest(
+        string $stopId,
+        int $limit = 100,
+        int $offset = 0,
+        ?DateTimeImmutable $date = null
+    ): TripResponse {
+        $request = new TripRequest($stopId, $limit, $offset, $date);
         $response = $this->sendRequest($request);
 
         if (! $response instanceof TripResponse) {
