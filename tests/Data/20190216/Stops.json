@@ -1,0 +1,645 @@
+{
+  "features": [
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.46372,
+		  49.94344
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "B",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2101Z2",
+		"stop_lat": 49.94344,
+		"stop_lon": 14.46372,
+		"stop_name": "Libeř,Libeň,U Hrušků",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "1",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.46348,
+		  49.93932
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "A",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2102Z1",
+		"stop_lat": 49.93932,
+		"stop_lon": 14.46348,
+		"stop_name": "Libeř,Libeň",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "1",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.46374,
+		  49.93896
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "B",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2102Z2",
+		"stop_lat": 49.93896,
+		"stop_lon": 14.46374,
+		"stop_name": "Libeř,Libeň",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "1",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.46406,
+		  49.93603
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "A",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2103Z1",
+		"stop_lat": 49.93603,
+		"stop_lon": 14.46406,
+		"stop_name": "Libeř,Libeň,Odb.STS",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "1",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.4637,
+		  49.93608
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "B",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2103Z2",
+		"stop_lat": 49.93608,
+		"stop_lon": 14.4637,
+		"stop_name": "Libeř,Libeň,Odb.STS",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "1",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.48085,
+		  49.92751
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "A",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2104Z1",
+		"stop_lat": 49.92751,
+		"stop_lon": 14.48085,
+		"stop_name": "Libeř,Na Ovčíně",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "2",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.48182,
+		  49.92778
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "B",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2104Z2",
+		"stop_lat": 49.92778,
+		"stop_lon": 14.48182,
+		"stop_name": "Libeř,Na Ovčíně",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "2",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.4802,
+		  49.92313
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "A",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2105Z1",
+		"stop_lat": 49.92313,
+		"stop_lon": 14.4802,
+		"stop_name": "Libeř",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "2",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.48056,
+		  49.92344
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "B",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2105Z2",
+		"stop_lat": 49.92344,
+		"stop_lon": 14.48056,
+		"stop_name": "Libeř",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "2",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.4981,
+		  49.91202
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "A",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2106Z1",
+		"stop_lat": 49.91202,
+		"stop_lon": 14.4981,
+		"stop_name": "Jílové u Prahy,Rozc.Radlík",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "2,3",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.49996,
+		  49.91288
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "B",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2106Z2",
+		"stop_lat": 49.91288,
+		"stop_lon": 14.49996,
+		"stop_name": "Jílové u Prahy,Rozc.Radlík",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "2,3",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.49194,
+		  49.90738
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "A",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2107Z1",
+		"stop_lat": 49.90738,
+		"stop_lon": 14.49194,
+		"stop_name": "Jílové u Prahy,Radlík",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "2,3",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.49212,
+		  49.90732
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "B",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2107Z2",
+		"stop_lat": 49.90732,
+		"stop_lon": 14.49212,
+		"stop_name": "Jílové u Prahy,Radlík",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "2,3",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.4938,
+		  49.89836
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "A",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2108Z1",
+		"stop_lat": 49.89836,
+		"stop_lon": 14.4938,
+		"stop_name": "Jílové u Prahy,Pražská",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "3",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.49395,
+		  49.89892
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "B",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2108Z2",
+		"stop_lat": 49.89892,
+		"stop_lon": 14.49395,
+		"stop_name": "Jílové u Prahy,Pražská",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 2,
+		"zone_id": "3",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.49302,
+		  49.89513
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "A",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2109Z1",
+		"stop_lat": 49.89513,
+		"stop_lon": 14.49302,
+		"stop_name": "Jílové u Prahy,Náměstí",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "3",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.49348,
+		  49.89506
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "B",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2109Z2",
+		"stop_lat": 49.89506,
+		"stop_lon": 14.49348,
+		"stop_name": "Jílové u Prahy,Náměstí",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "3",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.49293,
+		  49.89497
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "C",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U2109Z3",
+		"stop_lat": 49.89497,
+		"stop_lon": 14.49293,
+		"stop_name": "Jílové u Prahy,Náměstí",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "3",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:31:07.828Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.53838,
+		  50.03432
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "A",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U210Z1P",
+		"stop_lat": 50.03432,
+		"stop_lon": 14.53838,
+		"stop_name": "Jižní Město",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "P",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:30:18.275Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.53759,
+		  50.03444
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"level_id": "",
+		"location_type": 0,
+		"parent_station": "",
+		"platform_code": "B",
+		"stop_code": null,
+		"stop_desc": null,
+		"stop_id": "U210Z2P",
+		"stop_lat": 50.03444,
+		"stop_lon": 14.53759,
+		"stop_name": "Jižní Město",
+		"stop_timezone": null,
+		"stop_url": "",
+		"wheelchair_boarding": 0,
+		"zone_id": "P",
+		"create_batch_id": "-1",
+		"created_at": "2020-02-15T11:30:18.275Z",
+		"created_by": "integration-engine",
+		"update_batch_id": null,
+		"updated_at": null,
+		"updated_by": null
+	  },
+	  "type": "Feature"
+	}
+  ],
+  "type": "FeatureCollection"
+}

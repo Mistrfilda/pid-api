@@ -1,0 +1,1145 @@
+{
+  "features": [
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.00562,
+		  49.68255
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "Martin Uher",
+		  "cis_id": "100317",
+		  "cis_number": 3007,
+		  "cis_order": 6,
+		  "cis_parent_route_name": "317",
+		  "cis_real_agency_name": "Martin Uher",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 1178,
+		  "gtfs_route_id": "L317",
+		  "gtfs_route_short_name": "317",
+		  "gtfs_trip_id": "317_125_191124",
+		  "id": "2020-02-16T09:30:00Z_100317_317_3007",
+		  "start_cis_stop_id": 28004,
+		  "start_cis_stop_platform_code": "C",
+		  "start_time": "10:30:00",
+		  "start_timestamp": "2020-02-16T09:30:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": true
+		},
+		"last_position": {
+		  "bearing": 228,
+		  "cis_last_stop_id": 52846,
+		  "cis_last_stop_sequence": 42,
+		  "delay": 265,
+		  "delay_stop_arrival": null,
+		  "delay_stop_departure": 250,
+		  "gtfs_last_stop_id": "U9730Z1",
+		  "gtfs_last_stop_sequence": 41,
+		  "gtfs_next_stop_id": "U9731Z1",
+		  "gtfs_next_stop_sequence": 42,
+		  "gtfs_shape_dist_traveled": "62.6",
+		  "is_canceled": false,
+		  "lat": "49.68255",
+		  "lng": "14.00562",
+		  "origin_time": "12:07:10",
+		  "origin_timestamp": "2020-02-16T11:07:10.000Z",
+		  "speed": 36,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T09:30:00Z_100317_317_3007"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.30562,
+		  49.89318
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "Martin Uher",
+		  "cis_id": "100317",
+		  "cis_number": 3010,
+		  "cis_order": 1,
+		  "cis_parent_route_name": "317",
+		  "cis_real_agency_name": "Martin Uher",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 1174,
+		  "gtfs_route_id": "L317",
+		  "gtfs_route_short_name": "317",
+		  "gtfs_trip_id": "317_171_191124",
+		  "id": "2020-02-16T09:47:00Z_100317_317_3010",
+		  "start_cis_stop_id": 48807,
+		  "start_cis_stop_platform_code": "B",
+		  "start_time": "10:47:00",
+		  "start_timestamp": "2020-02-16T09:47:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": true
+		},
+		"last_position": {
+		  "bearing": 65,
+		  "cis_last_stop_id": 52127,
+		  "cis_last_stop_sequence": 33,
+		  "delay": -37,
+		  "delay_stop_arrival": null,
+		  "delay_stop_departure": 42,
+		  "gtfs_last_stop_id": "U1848Z2",
+		  "gtfs_last_stop_sequence": 33,
+		  "gtfs_next_stop_id": "U1707Z2",
+		  "gtfs_next_stop_sequence": 34,
+		  "gtfs_shape_dist_traveled": "42",
+		  "is_canceled": false,
+		  "lat": "49.89318",
+		  "lng": "14.30562",
+		  "origin_time": "12:07:18",
+		  "origin_timestamp": "2020-02-16T11:07:18.000Z",
+		  "speed": 0,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T09:47:00Z_100317_317_3010"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.4094,
+		  50.06182
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ARRIVA StřČ Dobříš",
+		  "cis_id": "100390",
+		  "cis_number": 4008,
+		  "cis_order": 1,
+		  "cis_parent_route_name": "338",
+		  "cis_real_agency_name": "ARRIVA StřČ Dobříš",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 9968,
+		  "gtfs_route_id": "L390",
+		  "gtfs_route_short_name": "390",
+		  "gtfs_trip_id": "390_45_190720",
+		  "id": "2020-02-16T09:52:00Z_100390_390_4008",
+		  "start_cis_stop_id": 23118,
+		  "start_cis_stop_platform_code": "B",
+		  "start_time": "10:52:00",
+		  "start_timestamp": "2020-02-16T09:52:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": true
+		},
+		"last_position": {
+		  "bearing": 356,
+		  "cis_last_stop_id": 28004,
+		  "cis_last_stop_sequence": 27,
+		  "delay": 92,
+		  "delay_stop_arrival": 87,
+		  "delay_stop_departure": null,
+		  "gtfs_last_stop_id": "U337Z4",
+		  "gtfs_last_stop_sequence": 26,
+		  "gtfs_next_stop_id": "U458Z13",
+		  "gtfs_next_stop_sequence": 27,
+		  "gtfs_shape_dist_traveled": "46.3",
+		  "is_canceled": false,
+		  "lat": "50.06182",
+		  "lng": "14.4094",
+		  "origin_time": "12:04:27",
+		  "origin_timestamp": "2020-02-16T11:04:27.000Z",
+		  "speed": 0,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T09:52:00Z_100390_390_4008"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.24217,
+		  50.13811
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ČSAD Česká Lípa",
+		  "cis_id": "109389",
+		  "cis_number": 4004,
+		  "cis_order": 1,
+		  "cis_parent_route_name": "389",
+		  "cis_real_agency_name": "ČSAD Česká Lípa",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 1069,
+		  "gtfs_route_id": "L389",
+		  "gtfs_route_short_name": "389",
+		  "gtfs_trip_id": "389_114_191221",
+		  "id": "2020-02-16T09:56:00Z_109389_389_4004",
+		  "start_cis_stop_id": 19366,
+		  "start_cis_stop_platform_code": "B",
+		  "start_time": "10:56:00",
+		  "start_timestamp": "2020-02-16T09:56:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": true
+		},
+		"last_position": {
+		  "bearing": 124,
+		  "cis_last_stop_id": 12983,
+		  "cis_last_stop_sequence": 21,
+		  "delay": -23,
+		  "delay_stop_arrival": null,
+		  "delay_stop_departure": 109,
+		  "gtfs_last_stop_id": "U4774Z2",
+		  "gtfs_last_stop_sequence": 21,
+		  "gtfs_next_stop_id": "U80Z4",
+		  "gtfs_next_stop_sequence": 22,
+		  "gtfs_shape_dist_traveled": "48.3",
+		  "is_canceled": false,
+		  "lat": "50.13811",
+		  "lng": "14.24217",
+		  "origin_time": "12:07:16",
+		  "origin_timestamp": "2020-02-16T11:07:16.000Z",
+		  "speed": 81,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T09:56:00Z_109389_389_4004"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.33535,
+		  50.06874
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ČSAD MHD Kladno",
+		  "cis_id": "100365",
+		  "cis_number": 4008,
+		  "cis_order": 11,
+		  "cis_parent_route_name": "365",
+		  "cis_real_agency_name": "ČSAD MHD Kladno",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 8935,
+		  "gtfs_route_id": "L365",
+		  "gtfs_route_short_name": "365",
+		  "gtfs_trip_id": "365_7_191215",
+		  "id": "2020-02-16T09:57:00Z_100365_365_4008",
+		  "start_cis_stop_id": 46498,
+		  "start_cis_stop_platform_code": "B",
+		  "start_time": "10:57:00",
+		  "start_timestamp": "2020-02-16T09:57:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": true
+		},
+		"last_position": {
+		  "bearing": 336,
+		  "cis_last_stop_id": 27972,
+		  "cis_last_stop_sequence": 33,
+		  "delay": 291,
+		  "delay_stop_arrival": 273,
+		  "delay_stop_departure": null,
+		  "gtfs_last_stop_id": "U306Z2",
+		  "gtfs_last_stop_sequence": 32,
+		  "gtfs_next_stop_id": "U394Z5",
+		  "gtfs_next_stop_sequence": 33,
+		  "gtfs_shape_dist_traveled": "35.2",
+		  "is_canceled": false,
+		  "lat": "50.06874",
+		  "lng": "14.33535",
+		  "origin_time": "12:04:50",
+		  "origin_timestamp": "2020-02-16T11:04:50.000Z",
+		  "speed": 11,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T09:57:00Z_100365_365_4008"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  13.96072,
+		  50.13207
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ČSAD Slaný",
+		  "cis_id": "220590",
+		  "cis_number": 4003,
+		  "cis_order": 21,
+		  "cis_parent_route_name": "590",
+		  "cis_real_agency_name": "ČSAD Slaný",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 7680,
+		  "gtfs_route_id": "L590",
+		  "gtfs_route_short_name": "590",
+		  "gtfs_trip_id": "590_97_191201",
+		  "id": "2020-02-16T09:57:00Z_220590_590_4003",
+		  "start_cis_stop_id": 40250,
+		  "start_cis_stop_platform_code": "A",
+		  "start_time": "10:57:00",
+		  "start_timestamp": "2020-02-16T09:57:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": false
+		},
+		"last_position": {
+		  "bearing": 213,
+		  "cis_last_stop_id": 33172,
+		  "cis_last_stop_sequence": 31,
+		  "delay": -29,
+		  "delay_stop_arrival": null,
+		  "delay_stop_departure": 24,
+		  "gtfs_last_stop_id": "U9291Z3",
+		  "gtfs_last_stop_sequence": 31,
+		  "gtfs_next_stop_id": "U9305Z2",
+		  "gtfs_next_stop_sequence": 32,
+		  "gtfs_shape_dist_traveled": "42.5",
+		  "is_canceled": false,
+		  "lat": "50.13207",
+		  "lng": "13.96072",
+		  "origin_time": "12:07:02",
+		  "origin_timestamp": "2020-02-16T11:07:02.000Z",
+		  "speed": 63,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T09:57:00Z_220590_590_4003"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.37641,
+		  49.96549
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ARRIVA StřČ Příbram",
+		  "cis_id": "100395",
+		  "cis_number": 3030,
+		  "cis_order": 31,
+		  "cis_parent_route_name": "395",
+		  "cis_real_agency_name": "ARRIVA StřČ Příbram",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 9874,
+		  "gtfs_route_id": "L395",
+		  "gtfs_route_short_name": "395",
+		  "gtfs_trip_id": "395_7_190901",
+		  "id": "2020-02-16T10:00:00Z_100395_395_3030",
+		  "start_cis_stop_id": 50760,
+		  "start_cis_stop_platform_code": "B",
+		  "start_time": "11:00:00",
+		  "start_timestamp": "2020-02-16T10:00:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": true
+		},
+		"last_position": {
+		  "bearing": 349,
+		  "cis_last_stop_id": 6136,
+		  "cis_last_stop_sequence": 18,
+		  "delay": 20,
+		  "delay_stop_arrival": null,
+		  "delay_stop_departure": 99,
+		  "gtfs_last_stop_id": "U1977Z2",
+		  "gtfs_last_stop_sequence": 18,
+		  "gtfs_next_stop_id": "U337Z4",
+		  "gtfs_next_stop_sequence": 19,
+		  "gtfs_shape_dist_traveled": "50.1",
+		  "is_canceled": false,
+		  "lat": "49.96549",
+		  "lng": "14.37641",
+		  "origin_time": "12:07:16",
+		  "origin_timestamp": "2020-02-16T11:07:16.000Z",
+		  "speed": 70,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T10:00:00Z_100395_395_3030"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.42915,
+		  49.81134
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ARRIVA StřČ Dobříš",
+		  "cis_id": "100390",
+		  "cis_number": 4005,
+		  "cis_order": 2,
+		  "cis_parent_route_name": "338",
+		  "cis_real_agency_name": "ARRIVA StřČ Dobříš",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 9969,
+		  "gtfs_route_id": "L390",
+		  "gtfs_route_short_name": "390",
+		  "gtfs_trip_id": "390_48_190720",
+		  "id": "2020-02-16T10:05:00Z_100390_390_4005",
+		  "start_cis_stop_id": 28004,
+		  "start_cis_stop_platform_code": "D",
+		  "start_time": "11:05:00",
+		  "start_timestamp": "2020-02-16T10:05:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": true
+		},
+		"last_position": {
+		  "bearing": 157,
+		  "cis_last_stop_id": 29126,
+		  "cis_last_stop_sequence": 21,
+		  "delay": -15,
+		  "delay_stop_arrival": null,
+		  "delay_stop_departure": -18,
+		  "gtfs_last_stop_id": "U2521Z1",
+		  "gtfs_last_stop_sequence": 21,
+		  "gtfs_next_stop_id": "U2522Z1",
+		  "gtfs_next_stop_sequence": 22,
+		  "gtfs_shape_dist_traveled": "38.4",
+		  "is_canceled": false,
+		  "lat": "49.81134",
+		  "lng": "14.42915",
+		  "origin_time": "12:02:30",
+		  "origin_timestamp": "2020-02-16T11:02:30.000Z",
+		  "speed": 48,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T10:05:00Z_100390_390_4005"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.00703,
+		  49.68365
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ARRIVA StřČ Dobříš",
+		  "cis_id": "100395",
+		  "cis_number": 3023,
+		  "cis_order": 41,
+		  "cis_parent_route_name": "395",
+		  "cis_real_agency_name": "ARRIVA StřČ Dobříš",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 9880,
+		  "gtfs_route_id": "L395",
+		  "gtfs_route_short_name": "395",
+		  "gtfs_trip_id": "395_189_190901",
+		  "id": "2020-02-16T10:05:00Z_100395_395_3023",
+		  "start_cis_stop_id": 28004,
+		  "start_cis_stop_platform_code": "H",
+		  "start_time": "11:05:00",
+		  "start_timestamp": "2020-02-16T10:05:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": true
+		},
+		"last_position": {
+		  "bearing": 185,
+		  "cis_last_stop_id": 28802,
+		  "cis_last_stop_sequence": 16,
+		  "delay": 96,
+		  "delay_stop_arrival": null,
+		  "delay_stop_departure": 83,
+		  "gtfs_last_stop_id": "U9730Z1",
+		  "gtfs_last_stop_sequence": 16,
+		  "gtfs_next_stop_id": "U9734Z1",
+		  "gtfs_next_stop_sequence": 17,
+		  "gtfs_shape_dist_traveled": "57.5",
+		  "is_canceled": false,
+		  "lat": "49.68365",
+		  "lng": "14.00703",
+		  "origin_time": "12:06:54",
+		  "origin_timestamp": "2020-02-16T11:06:54.000Z",
+		  "speed": 7,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T10:05:00Z_100395_395_3023"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.50643,
+		  50.15015
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ARRIVA City",
+		  "cis_id": "100209",
+		  "cis_number": 3012,
+		  "cis_order": 41,
+		  "cis_parent_route_name": "209",
+		  "cis_real_agency_name": "STENBUS",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 1767,
+		  "gtfs_route_id": "L209",
+		  "gtfs_route_short_name": "209",
+		  "gtfs_trip_id": "209_726_191130",
+		  "id": "2020-02-16T10:06:00Z_100209_209_3012",
+		  "start_cis_stop_id": 48906,
+		  "start_cis_stop_platform_code": "B",
+		  "start_time": "11:06:00",
+		  "start_timestamp": "2020-02-16T10:06:00.000Z",
+		  "vehicle_type": 3,
+		  "wheelchair_accessible": true
+		},
+		"last_position": {
+		  "bearing": 68,
+		  "cis_last_stop_id": 27957,
+		  "cis_last_stop_sequence": 44,
+		  "delay": 74,
+		  "delay_stop_arrival": null,
+		  "delay_stop_departure": 115,
+		  "gtfs_last_stop_id": "U766Z1P",
+		  "gtfs_last_stop_sequence": 44,
+		  "gtfs_next_stop_id": "U368Z3P",
+		  "gtfs_next_stop_sequence": 45,
+		  "gtfs_shape_dist_traveled": "29.8",
+		  "is_canceled": false,
+		  "lat": "50.15015",
+		  "lng": "14.50643",
+		  "origin_time": "12:02:46",
+		  "origin_timestamp": "2020-02-16T11:02:46.000Z",
+		  "speed": 26,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T10:06:00Z_100209_209_3012"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.06981,
+		  50.14746
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ČSAD MHD Kladno",
+		  "cis_id": "100324",
+		  "cis_number": 4013,
+		  "cis_order": 4,
+		  "cis_parent_route_name": "300",
+		  "cis_real_agency_name": "ČSAD MHD Kladno",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 8954,
+		  "gtfs_route_id": "L324",
+		  "gtfs_route_short_name": "324",
+		  "gtfs_trip_id": "324_649_200111",
+		  "id": "2020-02-16T10:10:00Z_100324_324_4013",
+		  "start_cis_stop_id": 28037,
+		  "start_cis_stop_platform_code": "4",
+		  "start_time": "11:10:00",
+		  "start_timestamp": "2020-02-16T10:10:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": true
+		},
+		"last_position": {
+		  "bearing": 356,
+		  "cis_last_stop_id": 49403,
+		  "cis_last_stop_sequence": 21,
+		  "delay": 236,
+		  "delay_stop_arrival": 216,
+		  "delay_stop_departure": null,
+		  "gtfs_last_stop_id": "U4327Z1",
+		  "gtfs_last_stop_sequence": 20,
+		  "gtfs_next_stop_id": "U4328Z1",
+		  "gtfs_next_stop_sequence": 21,
+		  "gtfs_shape_dist_traveled": "31.3",
+		  "is_canceled": false,
+		  "lat": "50.14746",
+		  "lng": "14.06981",
+		  "origin_time": "12:02:48",
+		  "origin_timestamp": "2020-02-16T11:02:48.000Z",
+		  "speed": 0,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T10:10:00Z_100324_324_4013"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.4474,
+		  50.04434
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ARRIVA City",
+		  "cis_id": "100335",
+		  "cis_number": 4006,
+		  "cis_order": 52,
+		  "cis_parent_route_name": "339",
+		  "cis_real_agency_name": "ARRIVA City",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 1981,
+		  "gtfs_route_id": "L335",
+		  "gtfs_route_short_name": "335",
+		  "gtfs_trip_id": "335_330_191109",
+		  "id": "2020-02-16T10:10:00Z_100335_335_4006",
+		  "start_cis_stop_id": 47654,
+		  "start_cis_stop_platform_code": "A",
+		  "start_time": "11:10:00",
+		  "start_timestamp": "2020-02-16T10:10:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": true
+		},
+		"last_position": {
+		  "bearing": 235,
+		  "cis_last_stop_id": 47115,
+		  "cis_last_stop_sequence": 28,
+		  "delay": 46,
+		  "delay_stop_arrival": 8,
+		  "delay_stop_departure": null,
+		  "gtfs_last_stop_id": "U488Z7",
+		  "gtfs_last_stop_sequence": 27,
+		  "gtfs_next_stop_id": "U50Z84",
+		  "gtfs_next_stop_sequence": 28,
+		  "gtfs_shape_dist_traveled": "27.6",
+		  "is_canceled": false,
+		  "lat": "50.04434",
+		  "lng": "14.4474",
+		  "origin_time": "12:04:45",
+		  "origin_timestamp": "2020-02-16T11:04:45.000Z",
+		  "speed": 11,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T10:10:00Z_100335_335_4006"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.52692,
+		  50.03045
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ABOUT ME",
+		  "cis_id": "100203",
+		  "cis_number": 4013,
+		  "cis_order": 3,
+		  "cis_parent_route_name": "117",
+		  "cis_real_agency_name": "ABOUT ME",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 1946,
+		  "gtfs_route_id": "L203",
+		  "gtfs_route_short_name": "203",
+		  "gtfs_trip_id": "203_435_191224",
+		  "id": "2020-02-16T10:15:00Z_100203_203_4013",
+		  "start_cis_stop_id": 57408,
+		  "start_cis_stop_platform_code": "E",
+		  "start_time": "11:15:00",
+		  "start_timestamp": "2020-02-16T10:15:00.000Z",
+		  "vehicle_type": 3,
+		  "wheelchair_accessible": true
+		},
+		"last_position": {
+		  "bearing": 261,
+		  "cis_last_stop_id": 55083,
+		  "cis_last_stop_sequence": 33,
+		  "delay": 39,
+		  "delay_stop_arrival": 25,
+		  "delay_stop_departure": null,
+		  "gtfs_last_stop_id": "U4133Z1P",
+		  "gtfs_last_stop_sequence": 32,
+		  "gtfs_next_stop_id": "U286Z2P",
+		  "gtfs_next_stop_sequence": 33,
+		  "gtfs_shape_dist_traveled": "21.6",
+		  "is_canceled": false,
+		  "lat": "50.03045",
+		  "lng": "14.52692",
+		  "origin_time": "12:05:27",
+		  "origin_timestamp": "2020-02-16T11:05:27.000Z",
+		  "speed": 0,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T10:15:00Z_100203_203_4013"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.27139,
+		  50.10887
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ČSAD MHD Kladno",
+		  "cis_id": "100322",
+		  "cis_number": 4040,
+		  "cis_order": 2,
+		  "cis_parent_route_name": "322",
+		  "cis_real_agency_name": "ČSAD MHD Kladno",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 8805,
+		  "gtfs_route_id": "L322",
+		  "gtfs_route_short_name": "322",
+		  "gtfs_trip_id": "322_852_191215",
+		  "id": "2020-02-16T10:15:00Z_100322_322_4040",
+		  "start_cis_stop_id": 14324,
+		  "start_cis_stop_platform_code": "1",
+		  "start_time": "11:15:00",
+		  "start_timestamp": "2020-02-16T10:15:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": false
+		},
+		"last_position": {
+		  "bearing": 239,
+		  "cis_last_stop_id": 37009,
+		  "cis_last_stop_sequence": 18,
+		  "delay": 140,
+		  "delay_stop_arrival": null,
+		  "delay_stop_departure": 176,
+		  "gtfs_last_stop_id": "U4259Z2",
+		  "gtfs_last_stop_sequence": 19,
+		  "gtfs_next_stop_id": "U628Z10",
+		  "gtfs_next_stop_sequence": 20,
+		  "gtfs_shape_dist_traveled": "25.5",
+		  "is_canceled": false,
+		  "lat": "50.10887",
+		  "lng": "14.27139",
+		  "origin_time": "12:07:04",
+		  "origin_timestamp": "2020-02-16T11:07:04.000Z",
+		  "speed": 43,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T10:15:00Z_100322_322_4040"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.60065,
+		  49.87081
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ARRIVA City",
+		  "cis_id": "100339",
+		  "cis_number": 4013,
+		  "cis_order": 30,
+		  "cis_parent_route_name": "332",
+		  "cis_real_agency_name": "ARRIVA City",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 9933,
+		  "gtfs_route_id": "L339",
+		  "gtfs_route_short_name": "339",
+		  "gtfs_trip_id": "339_291_191223",
+		  "id": "2020-02-16T10:15:00Z_100339_339_4013",
+		  "start_cis_stop_id": 47115,
+		  "start_cis_stop_platform_code": "I",
+		  "start_time": "11:15:00",
+		  "start_timestamp": "2020-02-16T10:15:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": true
+		},
+		"last_position": {
+		  "bearing": 259,
+		  "cis_last_stop_id": 30772,
+		  "cis_last_stop_sequence": 26,
+		  "delay": 124,
+		  "delay_stop_arrival": null,
+		  "delay_stop_departure": 147,
+		  "gtfs_last_stop_id": "U1597Z1",
+		  "gtfs_last_stop_sequence": 26,
+		  "gtfs_next_stop_id": "U1588Z1",
+		  "gtfs_next_stop_sequence": 27,
+		  "gtfs_shape_dist_traveled": "27.3",
+		  "is_canceled": false,
+		  "lat": "49.87081",
+		  "lng": "14.60065",
+		  "origin_time": "12:07:16",
+		  "origin_timestamp": "2020-02-16T11:07:16.000Z",
+		  "speed": 61,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T10:15:00Z_100339_339_4013"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.11951,
+		  49.98
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ARRIVA StřČ Praha",
+		  "cis_id": "100380",
+		  "cis_number": 4013,
+		  "cis_order": 34,
+		  "cis_parent_route_name": "380",
+		  "cis_real_agency_name": "ARRIVA StřČ Praha",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 9692,
+		  "gtfs_route_id": "L380",
+		  "gtfs_route_short_name": "380",
+		  "gtfs_trip_id": "380_69_191215",
+		  "id": "2020-02-16T10:17:00Z_100380_380_4013",
+		  "start_cis_stop_id": 63907,
+		  "start_cis_stop_platform_code": "G",
+		  "start_time": "11:17:00",
+		  "start_timestamp": "2020-02-16T10:17:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": false
+		},
+		"last_position": {
+		  "bearing": 254,
+		  "cis_last_stop_id": 40266,
+		  "cis_last_stop_sequence": 30,
+		  "delay": 33,
+		  "delay_stop_arrival": null,
+		  "delay_stop_departure": -8,
+		  "gtfs_last_stop_id": "U2373Z1",
+		  "gtfs_last_stop_sequence": 30,
+		  "gtfs_next_stop_id": "U4272Z1",
+		  "gtfs_next_stop_sequence": 31,
+		  "gtfs_shape_dist_traveled": "23",
+		  "is_canceled": false,
+		  "lat": "49.98",
+		  "lng": "14.11951",
+		  "origin_time": "12:07:21",
+		  "origin_timestamp": "2020-02-16T11:07:21.000Z",
+		  "speed": 78,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T10:17:00Z_100380_380_4013"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.47035,
+		  50.12658
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ČSAD StřČ Brandýs",
+		  "cis_id": "100166",
+		  "cis_number": 4013,
+		  "cis_order": 31,
+		  "cis_parent_route_name": "166",
+		  "cis_real_agency_name": "ČSAD StřČ Brandýs",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 8010,
+		  "gtfs_route_id": "L166",
+		  "gtfs_route_short_name": "166",
+		  "gtfs_trip_id": "166_231_190901",
+		  "id": "2020-02-16T10:19:00Z_100166_166_4013",
+		  "start_cis_stop_id": 28010,
+		  "start_cis_stop_platform_code": "C",
+		  "start_time": "11:19:00",
+		  "start_timestamp": "2020-02-16T10:19:00.000Z",
+		  "vehicle_type": 3,
+		  "wheelchair_accessible": true
+		},
+		"last_position": {
+		  "bearing": 245,
+		  "cis_last_stop_id": 51889,
+		  "cis_last_stop_sequence": 36,
+		  "delay": -3,
+		  "delay_stop_arrival": null,
+		  "delay_stop_departure": 7,
+		  "gtfs_last_stop_id": "U78Z3P",
+		  "gtfs_last_stop_sequence": 36,
+		  "gtfs_next_stop_id": "U4128Z1P",
+		  "gtfs_next_stop_sequence": 37,
+		  "gtfs_shape_dist_traveled": "16.9",
+		  "is_canceled": false,
+		  "lat": "50.12658",
+		  "lng": "14.47035",
+		  "origin_time": "12:07:07",
+		  "origin_timestamp": "2020-02-16T11:07:07.000Z",
+		  "speed": 7,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T10:19:00Z_100166_166_4013"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.47516,
+		  49.84699
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ČSAD Benešov",
+		  "cis_id": "200438",
+		  "cis_number": 3005,
+		  "cis_order": 8,
+		  "cis_parent_route_name": "452",
+		  "cis_real_agency_name": "ČSAD Benešov",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 7931,
+		  "gtfs_route_id": "L438",
+		  "gtfs_route_short_name": "438",
+		  "gtfs_trip_id": "438_241_190803",
+		  "id": "2020-02-16T10:19:00Z_200438_438_3005",
+		  "start_cis_stop_id": 918,
+		  "start_cis_stop_platform_code": "N6",
+		  "start_time": "11:19:00",
+		  "start_timestamp": "2020-02-16T10:19:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": false
+		},
+		"last_position": {
+		  "bearing": 324,
+		  "cis_last_stop_id": 16450,
+		  "cis_last_stop_sequence": 21,
+		  "delay": 197,
+		  "delay_stop_arrival": null,
+		  "delay_stop_departure": 195,
+		  "gtfs_last_stop_id": "U2505Z2",
+		  "gtfs_last_stop_sequence": 21,
+		  "gtfs_next_stop_id": "U2504Z2",
+		  "gtfs_next_stop_sequence": 22,
+		  "gtfs_shape_dist_traveled": "25.2",
+		  "is_canceled": false,
+		  "lat": "49.84699",
+		  "lng": "14.47516",
+		  "origin_time": "12:06:34",
+		  "origin_timestamp": "2020-02-16T11:06:34.000Z",
+		  "speed": 42,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T10:19:00Z_200438_438_3005"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  14.47212,
+		  49.77121
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ČSAD Benešov",
+		  "cis_id": "200455",
+		  "cis_number": 3001,
+		  "cis_order": 5,
+		  "cis_parent_route_name": "452",
+		  "cis_real_agency_name": "ČSAD Benešov",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 7881,
+		  "gtfs_route_id": "L455",
+		  "gtfs_route_short_name": "455",
+		  "gtfs_trip_id": "455_72_190608",
+		  "id": "2020-02-16T10:19:00Z_200455_455_3001",
+		  "start_cis_stop_id": 918,
+		  "start_cis_stop_platform_code": "N6",
+		  "start_time": "11:19:00",
+		  "start_timestamp": "2020-02-16T10:19:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": false
+		},
+		"last_position": {
+		  "bearing": 311,
+		  "cis_last_stop_id": 23106,
+		  "cis_last_stop_sequence": 22,
+		  "delay": 329,
+		  "delay_stop_arrival": null,
+		  "delay_stop_departure": 303,
+		  "gtfs_last_stop_id": "U4456Z1",
+		  "gtfs_last_stop_sequence": 22,
+		  "gtfs_next_stop_id": "U4460Z1",
+		  "gtfs_next_stop_sequence": 23,
+		  "gtfs_shape_dist_traveled": "28",
+		  "is_canceled": false,
+		  "lat": "49.77121",
+		  "lng": "14.47212",
+		  "origin_time": "12:06:39",
+		  "origin_timestamp": "2020-02-16T11:06:39.000Z",
+		  "speed": 46,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T10:19:00Z_200455_455_3001"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	},
+	{
+	  "geometry": {
+		"coordinates": [
+		  13.90378,
+		  50.14945
+		],
+		"type": "Point"
+	  },
+	  "properties": {
+		"trip": {
+		  "cis_agency_name": "ANEXIA BUS",
+		  "cis_id": "100305",
+		  "cis_number": 3005,
+		  "cis_order": 1,
+		  "cis_parent_route_name": "304933",
+		  "cis_real_agency_name": "ANEXIA BUS",
+		  "cis_short_name": null,
+		  "cis_vehicle_registration_number": 8355,
+		  "gtfs_route_id": "L305",
+		  "gtfs_route_short_name": "305",
+		  "gtfs_trip_id": "305_6_191215",
+		  "id": "2020-02-16T10:20:00Z_100305_305_3005",
+		  "start_cis_stop_id": 28037,
+		  "start_cis_stop_platform_code": "6",
+		  "start_time": "11:20:00",
+		  "start_timestamp": "2020-02-16T10:20:00.000Z",
+		  "vehicle_type": 4,
+		  "wheelchair_accessible": false
+		},
+		"last_position": {
+		  "bearing": 275,
+		  "cis_last_stop_id": 23947,
+		  "cis_last_stop_sequence": 15,
+		  "delay": 38,
+		  "delay_stop_arrival": null,
+		  "delay_stop_departure": 64,
+		  "gtfs_last_stop_id": "U9316Z2",
+		  "gtfs_last_stop_sequence": 15,
+		  "gtfs_next_stop_id": "U4298Z1",
+		  "gtfs_next_stop_sequence": 16,
+		  "gtfs_shape_dist_traveled": "36.8",
+		  "is_canceled": false,
+		  "lat": "50.14945",
+		  "lng": "13.90378",
+		  "origin_time": "12:07:04",
+		  "origin_timestamp": "2020-02-16T11:07:04.000Z",
+		  "speed": 11,
+		  "tracking": 2,
+		  "trips_id": "2020-02-16T10:20:00Z_100305_305_3005"
+		},
+		"all_positions": {
+		  "features": [],
+		  "type": "FeatureCollection"
+		}
+	  },
+	  "type": "Feature"
+	}
+  ],
+  "type": "FeatureCollection"
+}

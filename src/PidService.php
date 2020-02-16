@@ -65,8 +65,10 @@ class PidService
         return $this->client;
     }
 
-    public function sendGetStopsRequest(int $limit, int $offset): StopResponse
-    {
+    public function sendGetStopsRequest(
+        int $limit = 100,
+        int $offset = 0
+    ): StopResponse {
         $request = new StopRequest($limit, $offset);
         $response = $this->sendRequest($request);
 
