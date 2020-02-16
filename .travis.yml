@@ -10,13 +10,7 @@ install:
   - composer install --no-interaction -o
 
 script:
-  - composer lint
-  - composer stan
-  - composer cs
-
-#after_script:
-#  - composer global require php-coveralls/php-coveralls ^2.1.0
-#  - ~/.composer/vendor/bin/php-coveralls --verbose --config tests/.coveralls.yml
+  - composer build-all
 
 sudo: false
 
