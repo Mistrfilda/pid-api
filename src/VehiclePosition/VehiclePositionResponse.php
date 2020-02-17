@@ -14,7 +14,7 @@ class VehiclePositionResponse extends Response
     private $count;
 
     /** @var VehiclePosition[] */
-    private $vehiclePositions;
+    private $vehiclePositions = [];
 
     public function getCount(): int
     {

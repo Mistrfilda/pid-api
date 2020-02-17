@@ -14,7 +14,7 @@ class TripResponse extends Response
     private $count;
 
     /** @var Trip[] */
-    private $trips;
+    private $trips = [];
 
     public function getCount(): int
     {

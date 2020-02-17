@@ -14,7 +14,7 @@ class StopTimeResponse extends Response
     private $count;
 
     /** @var StopTime[] */
-    private $stopTimes;
+    private $stopTimes = [];
 
     public function getCount(): int
     {

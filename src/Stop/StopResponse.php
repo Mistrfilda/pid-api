@@ -14,7 +14,7 @@ class StopResponse extends Response
     private $count;
 
     /** @var Stop[] */
-    private $stops;
+    private $stops = [];
 
     public function getCount(): int
     {
