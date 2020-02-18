@@ -7,9 +7,7 @@ Currently supports V2 of API - ```https://api.golemio.cz/v2``` - more about api 
 There is prepared service class, which takes only access token as parameter by default (more info on https://golemioapi.docs.apiary.io/)
 
 ```php
-
 $pidService = new \Mistrfilda\Ofce\Pid\Api\PidService('Your access token');
-
 ```
 
 Supported endpoints:
