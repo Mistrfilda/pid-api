@@ -24,7 +24,7 @@ use Psr\Http\Client\ClientInterface;
 
 class PidService
 {
-    public const BASE_URI = 'https://api.golemio.cz/v1';
+    public const BASE_URI = 'https://api.golemio.cz/v2';
 
     /** @var string */
     private $baseUri;

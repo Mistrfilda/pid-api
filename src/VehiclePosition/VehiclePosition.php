@@ -16,6 +16,9 @@ class VehiclePosition
     private $company;
 
     /** @var string */
+    private $scheduledCompany;
+
+    /** @var string */
     private $routeId;
 
     /** @var string */
@@ -24,18 +27,13 @@ class VehiclePosition
     /** @var string */
     private $tripId;
 
-    /** @var string */
-    private $dateId;
-
     /**
      * @var int
-     * WAITING FOR API V2
      */
     private $vehicleType;
 
     /**
-     * @var string
-     * WAITING FOR API V2
+     * @var int
      */
     private $vehicleRegistrationNumber;
 
@@ -51,6 +49,9 @@ class VehiclePosition
     /** @var string */
     private $nextStopId;
 
+    /** @var string */
+    private $tripHeadsign;
+
     /**
      * VehiclePosition constructor.
      */
@@ -58,30 +59,32 @@ class VehiclePosition
         float $latitude,
         float $longitude,
         string $company,
+        string $scheduledCompany,
         string $routeId,
         string $shortRouteId,
         string $tripId,
-        string $dateId,
         int $vehicleType,
-        string $vehicleRegistrationNumber,
+        int $vehicleRegistrationNumber,
         bool $wheelchairAccessible,
         int $delay,
         string $lastStopId,
-        string $nextStopId
+        string $nextStopId,
+        string $tripHeadsign
     ) {
         $this->latitude = $latitude;
         $this->longitude = $longitude;
         $this->company = $company;
+        $this->scheduledCompany = $scheduledCompany;
         $this->routeId = $routeId;
         $this->shortRouteId = $shortRouteId;
         $this->tripId = $tripId;
-        $this->dateId = $dateId;
         $this->vehicleType = $vehicleType;
         $this->vehicleRegistrationNumber = $vehicleRegistrationNumber;
         $this->wheelchairAccessible = $wheelchairAccessible;
         $this->delay = $delay;
         $this->lastStopId = $lastStopId;
         $this->nextStopId = $nextStopId;
+        $this->tripHeadsign = $tripHeadsign;
     }
 
     public function getLatitude(): float
@@ -114,17 +117,12 @@ class VehiclePosition
         return $this->tripId;
     }
 
-    public function getDateId(): string
-    {
-        return $this->dateId;
-    }
-
     public function getVehicleType(): int
     {
         return $this->vehicleType;
     }
 
-    public function getVehicleRegistrationNumber(): string
+    public function getVehicleRegistrationNumber(): int
     {
         return $this->vehicleRegistrationNumber;
     }
@@ -147,5 +145,15 @@ class VehiclePosition
     public function getNextStopId(): string
     {
         return $this->nextStopId;
+    }
+
+    public function getScheduledCompany(): string
+    {
+        return $this->scheduledCompany;
+    }
+
+    public function getTripHeadsign(): string
+    {
+        return $this->tripHeadsign;
     }
 }
