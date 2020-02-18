@@ -1,7 +1,7 @@
 {
 	"name": "mistrfilda/pid-api",
 	"license": "MIT",
-	"description": "Prague public transport api integration using guzzle/http client",
+	"description": "PID api integration using guzzle/http client",
 	"require": {
 		"php": ">=7.3",
 		"guzzlehttp/guzzle": "^6.3",
