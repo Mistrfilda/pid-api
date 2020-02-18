@@ -50,21 +50,6 @@ class PidService
         $this->client = $clientFactory->createClient();
     }
 
-    public function getBaseUri(): string
-    {
-        return $this->baseUri;
-    }
-
-    public function getAccessToken(): string
-    {
-        return $this->accessToken;
-    }
-
-    public function getClient(): ClientInterface
-    {
-        return $this->client;
-    }
-
     public function sendGetStopsRequest(
         int $limit = 100,
         int $offset = 0
@@ -135,7 +120,7 @@ class PidService
 
     private function sendRequest(Request $request): Response
     {
-        $urlFactory = new UrlFactory(self::BASE_URI, $request->getEndpoint());
+        $urlFactory = new UrlFactory($this->baseUri, $request->getEndpoint());
 
         if ($request->hasQueryParameters()) {
             $urlFactory->addParameters($request->getQueryParameters());

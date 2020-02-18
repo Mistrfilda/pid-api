@@ -4,13 +4,14 @@ Currently supports V2 of API - ```https://api.golemio.cz/v2``` - more about api 
 
 ## Usage
 
-There is prepared service class, which takes only access token as parameter by default (more info on https://golemioapi.docs.apiary.io/)
+- Obtain access token - https://golemioapi.docs.apiary.io/
+- Use new instance of prepared class with endpoints
 
 ```php
 $pidService = new \Mistrfilda\Ofce\Pid\Api\PidService('Your access token');
 ```
 
-Supported endpoints:
+Supported endpoints with methods:
 - gtfs/stops - ```$pidservice->sendGetStopsRequest();```
 - gtfs/trips - ```$pidservice->sendGetStopTripsRequest();```
 - gtfs/stoptimes - ```$pidservice->sendGetStopTimesRequest();```
