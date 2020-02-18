@@ -79,7 +79,7 @@ class StopResponse extends Response
                     'updated_by' => Expect::string()->nullable(),
                 ])->castTo('array'),
                 'type' => Expect::string(),
-            ])->castTo('array'))->min(1),
+            ])->castTo('array')),
             'type' => Expect::string(),
         ])->castTo('array');
     }
