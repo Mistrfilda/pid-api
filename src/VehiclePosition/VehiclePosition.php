@@ -27,14 +27,10 @@ class VehiclePosition
     /** @var string */
     private $tripId;
 
-    /**
-     * @var int
-     */
+    /** @var int */
     private $vehicleType;
 
-    /**
-     * @var int
-     */
+    /** @var int */
     private $vehicleRegistrationNumber;
 
     /** @var bool */
