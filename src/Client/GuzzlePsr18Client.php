@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Ofce\Pid\Api\Client;
 
-use Exception;
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Exception\BadResponseException;
 use GuzzleHttp\Exception\ConnectException;
@@ -25,7 +24,7 @@ class GuzzlePsr18Client extends GuzzleClient implements ClientInterface
             throw new NetworkException($e->getMessage(), $request, $e);
         } catch (GuzzleRequestException $e) {
             throw new RequestException($e->getMessage(), $request, $e->getResponse(), $e);
-        } catch (Exception $e) {
+        } catch (\Exception $e) {
             throw new ClientException($e->getMessage(), $request, null, $e);
         }
     }

@@ -12,11 +12,10 @@ use Ofce\Pid\Api\PidService;
 use Ofce\Pid\Test\TestDataGetter;
 use Tester\Assert;
 
-
 require __DIR__ . '/../Bootstrap.php';
 
 $mockedHandler = new MockHandler([
-	new Response(200, [], FileSystem::read(TestDataGetter::AVAILABLE_DATA['20190216']['trip'])),
+    new Response(200, [], FileSystem::read(TestDataGetter::AVAILABLE_DATA['20190216']['trip'])),
 ]);
 
 $mockedGuzzleClient = new GuzzlePsr18Client(['handler' => HandlerStack::create($mockedHandler)]);

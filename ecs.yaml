@@ -2,6 +2,16 @@ parameters:
   sets:
     - 'clean-code'
     - 'psr12'
+    - 'php70'
     - 'php71'
     - 'common'
     - 'php-cs-fixer-psr2'
+    - 'dead-code'
+    - 'types'
+
+  file_extensions:
+    - 'php'
+    - 'phpt'
+
+  skip:
+    SlevomatCodingStandard\Sniffs\Exceptions\ReferenceThrowableOnlySniff: ~

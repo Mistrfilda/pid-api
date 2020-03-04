@@ -2,13 +2,19 @@
 
 Currently supports V2 of API - ```https://api.golemio.cz/v2``` - more about api on https://golemioapi.docs.apiary.io/
 
+## Instalation
+
+```bash
+composer require mistrfilda/pid-api 
+```
+
 ## Usage
 
 - Obtain access token - https://golemioapi.docs.apiary.io/
 - Use new instance of prepared class with endpoints
 
 ```php
-$pidService = new \Mistrfilda\Ofce\Pid\Api\PidService('Your access token');
+$pidService = new \Ofce\Pid\Api\PidService('Your access token');
 ```
 
 Supported endpoints with methods:
