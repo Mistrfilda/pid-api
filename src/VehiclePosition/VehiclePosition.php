@@ -27,7 +27,7 @@ class VehiclePosition
     /** @var string */
     private $tripId;
 
-    /** @var int */
+    /** @var ?int */
     private $vehicleType;
 
     /** @var int */
@@ -59,7 +59,7 @@ class VehiclePosition
         string $routeId,
         string $shortRouteId,
         string $tripId,
-        int $vehicleType,
+        ?int $vehicleType,
         int $vehicleRegistrationNumber,
         bool $wheelchairAccessible,
         int $delay,
@@ -113,7 +113,7 @@ class VehiclePosition
         return $this->tripId;
     }
 
-    public function getVehicleType(): int
+    public function getVehicleType(): ?int
     {
         return $this->vehicleType;
     }
