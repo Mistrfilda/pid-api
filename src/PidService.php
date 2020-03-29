@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace Ofce\Pid\Api;
+namespace Mistrfilda\Pid\Api;
 
 use DateTimeImmutable;
 use GuzzleHttp\Psr7\Request as GuzzleRequest;
-use Ofce\Pid\Api\Client\ClientFactory;
-use Ofce\Pid\Api\Client\IClientFactory;
-use Ofce\Pid\Api\Http\Request\Request;
-use Ofce\Pid\Api\Http\Response\InvalidResponseException;
-use Ofce\Pid\Api\Http\Response\Response;
-use Ofce\Pid\Api\Http\UrlFactory;
-use Ofce\Pid\Api\Stop\StopRequest;
-use Ofce\Pid\Api\Stop\StopResponse;
-use Ofce\Pid\Api\StopTime\StopTimeRequest;
-use Ofce\Pid\Api\StopTime\StopTimeResponse;
-use Ofce\Pid\Api\Trip\TripRequest;
-use Ofce\Pid\Api\Trip\TripResponse;
-use Ofce\Pid\Api\VehiclePosition\VehiclePositionRequest;
-use Ofce\Pid\Api\VehiclePosition\VehiclePositionResponse;
+use Mistrfilda\Pid\Api\Client\ClientFactory;
+use Mistrfilda\Pid\Api\Client\IClientFactory;
+use Mistrfilda\Pid\Api\Http\Request\Request;
+use Mistrfilda\Pid\Api\Http\Response\InvalidResponseException;
+use Mistrfilda\Pid\Api\Http\Response\Response;
+use Mistrfilda\Pid\Api\Http\UrlFactory;
+use Mistrfilda\Pid\Api\Stop\StopRequest;
+use Mistrfilda\Pid\Api\Stop\StopResponse;
+use Mistrfilda\Pid\Api\StopTime\StopTimeRequest;
+use Mistrfilda\Pid\Api\StopTime\StopTimeResponse;
+use Mistrfilda\Pid\Api\Trip\TripRequest;
+use Mistrfilda\Pid\Api\Trip\TripResponse;
+use Mistrfilda\Pid\Api\VehiclePosition\VehiclePositionRequest;
+use Mistrfilda\Pid\Api\VehiclePosition\VehiclePositionResponse;
 use Psr\Http\Client\ClientInterface;
 
 class PidService

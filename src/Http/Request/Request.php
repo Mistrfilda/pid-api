@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Ofce\Pid\Api\Http\Request;
+namespace Mistrfilda\Pid\Api\Http\Request;
 
-use Ofce\Pid\Api\Http\InvalidParameterException;
-use Ofce\Pid\Api\Http\Response\Response;
+use Mistrfilda\Pid\Api\Http\InvalidParameterException;
+use Mistrfilda\Pid\Api\Http\Response\Response;
 use Psr\Http\Message\ResponseInterface;
 
 abstract class Request

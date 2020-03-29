@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Ofce\Pid\Api\Stop;
+namespace Mistrfilda\Pid\Api\Stop;
 
-use Ofce\Pid\Api\Http\Request\Request;
-use Ofce\Pid\Api\Http\Response\Response;
+use Mistrfilda\Pid\Api\Http\Request\Request;
+use Mistrfilda\Pid\Api\Http\Response\Response;
 use Psr\Http\Message\ResponseInterface;
 
 class StopRequest extends Request

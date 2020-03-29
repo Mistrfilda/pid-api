@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ofce\Pid\Api\StopTime;
+namespace Mistrfilda\Pid\Api\StopTime;
 
 class StopTime
 {

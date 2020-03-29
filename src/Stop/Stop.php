@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ofce\Pid\Api\Stop;
+namespace Mistrfilda\Pid\Api\Stop;
 
 class Stop
 {
