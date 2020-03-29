@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Ofce\Pid\Api\VehiclePosition;
+namespace Mistrfilda\Pid\Api\VehiclePosition;
 
+use Mistrfilda\Pid\Api\Http\Response\Response;
 use Nette\Schema\Expect;
 use Nette\Schema\Schema;
-use Ofce\Pid\Api\Http\Response\Response;
 
 class VehiclePositionResponse extends Response
 {

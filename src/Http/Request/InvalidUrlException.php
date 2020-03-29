@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ofce\Pid\Api\Http\Request;
+namespace Mistrfilda\Pid\Api\Http\Request;
 
 use Exception;
 use Throwable;

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Ofce\Pid\Api\StopTime;
+namespace Mistrfilda\Pid\Api\StopTime;
 
+use Mistrfilda\Pid\Api\Http\Response\Response;
 use Nette\Schema\Expect;
 use Nette\Schema\Schema;
-use Ofce\Pid\Api\Http\Response\Response;
 
 class StopTimeResponse extends Response
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ofce\Pid\Api\Trip;
+namespace Mistrfilda\Pid\Api\Trip;
 
 class Trip
 {

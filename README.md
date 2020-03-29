@@ -14,7 +14,7 @@ composer require mistrfilda/pid-api
 - Use new instance of prepared class with endpoints
 
 ```php
-$pidService = new \Ofce\Pid\Api\PidService('Your access token');
+$pidService = new \Mistrfilda\Pid\Api\PidService('Your access token');
 ```
 
 Supported endpoints with methods:

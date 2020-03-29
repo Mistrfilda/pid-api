@@ -5,12 +5,12 @@ declare(strict_types=1);
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
+use Mistrfilda\Pid\Api\Client\GuzzlePsr18Client;
+use Mistrfilda\Pid\Api\Client\IClientFactory;
+use Mistrfilda\Pid\Api\PidService;
+use Mistrfilda\Pid\Test\TestDataGetter;
 use Nette\Schema\ValidationException;
 use Nette\Utils\FileSystem;
-use Ofce\Pid\Api\Client\GuzzlePsr18Client;
-use Ofce\Pid\Api\Client\IClientFactory;
-use Ofce\Pid\Api\PidService;
-use Ofce\Pid\Test\TestDataGetter;
 use Tester\Assert;
 
 require __DIR__ . '/../Bootstrap.php';

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ofce\Pid\Test;
+namespace Mistrfilda\Pid\Test;
 
 class TestDataGetter
 {

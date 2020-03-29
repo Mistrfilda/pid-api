@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ofce\Pid\Api\VehiclePosition;
+namespace Mistrfilda\Pid\Api\VehiclePosition;
 
 class VehiclePosition
 {

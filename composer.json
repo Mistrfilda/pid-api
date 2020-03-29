@@ -25,12 +25,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Ofce\\Pid\\Api\\": "src"
+			"Mistrfilda\\Pid\\Api\\": "src"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"Ofce\\Pid\\Test\\": "tests"
+			"Mistrfilda\\Pid\\Test\\": "tests"
 		}
 	},
 	"scripts": {

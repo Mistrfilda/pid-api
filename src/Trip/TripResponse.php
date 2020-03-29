@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Ofce\Pid\Api\Trip;
+namespace Mistrfilda\Pid\Api\Trip;
 
+use Mistrfilda\Pid\Api\Http\Response\Response;
 use Nette\Schema\Expect;
 use Nette\Schema\Schema;
-use Ofce\Pid\Api\Http\Response\Response;
 
 class TripResponse extends Response
 {

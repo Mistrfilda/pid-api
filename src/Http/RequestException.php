@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ofce\Pid\Api\Http;
+namespace Mistrfilda\Pid\Api\Http;
 
 use Exception;
 use Psr\Http\Client\RequestExceptionInterface;
