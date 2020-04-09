@@ -12,25 +12,25 @@ use Psr\Http\Message\ResponseInterface;
 
 class TripRequest extends Request
 {
-    public const URL = 'gtfs/trips';
+	public const URL = 'gtfs/trips';
 
-    public function __construct(string $stopId, int $limit, int $offset, ?DateTimeImmutable $date = null)
-    {
-        $queryParameters = [
-            'limit' => $limit,
-            'offset' => $offset,
-            'stopId' => $stopId,
-        ];
+	public function __construct(string $stopId, int $limit, int $offset, ?DateTimeImmutable $date = null)
+	{
+		$queryParameters = [
+			'limit' => $limit,
+			'offset' => $offset,
+			'stopId' => $stopId,
+		];
 
-        if ($date !== null) {
-            $queryParameters['date'] = $date->format(DatetimeHelper::API_DATE_FORMAT);
-        }
+		if ($date !== null) {
+			$queryParameters['date'] = $date->format(DatetimeHelper::API_DATE_FORMAT);
+		}
 
-        parent::__construct(Request::METHOD_GET, self::URL, [], $queryParameters);
-    }
+		parent::__construct(Request::METHOD_GET, self::URL, [], $queryParameters);
+	}
 
-    public function processResponse(ResponseInterface $response): Response
-    {
-        return new TripResponse($response);
-    }
+	public function processResponse(ResponseInterface $response): Response
+	{
+		return new TripResponse($response);
+	}
 }

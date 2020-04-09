@@ -8,7 +8,7 @@ use GuzzleHttp\Psr7\Response;
 use Mistrfilda\Pid\Api\Client\GuzzlePsr18Client;
 use Mistrfilda\Pid\Api\Client\IClientFactory;
 use Mistrfilda\Pid\Api\PidService;
-use Mistrfilda\Pid\Test\TestDataGetter;
+use Mistrfilda\Pid\Test\Data\TestDataGetter;
 use Nette\Schema\ValidationException;
 use Nette\Utils\FileSystem;
 use Tester\Assert;
@@ -16,8 +16,8 @@ use Tester\Assert;
 require __DIR__ . '/../Bootstrap.php';
 
 $mockedHandler = new MockHandler([
-    new Response(200, [], FileSystem::read(TestDataGetter::AVAILABLE_DATA['20190216']['stop'])),
-    new Response(200, [], FileSystem::read(TestDataGetter::AVAILABLE_DATA['20190216']['stopTime'])),
+	new Response(200, [], FileSystem::read(TestDataGetter::AVAILABLE_DATA['20190216']['stop'])),
+	new Response(200, [], FileSystem::read(TestDataGetter::AVAILABLE_DATA['20190216']['stopTime'])),
 ]);
 
 $mockedGuzzleClient = new GuzzlePsr18Client(['handler' => HandlerStack::create($mockedHandler)]);
@@ -41,5 +41,5 @@ Assert::equal($stops[19]->getStopId(), 'U210Z2P');
 
 
 Assert::exception(function () use ($pidService): void {
-    $pidService->sendGetStopsRequest();
+	$pidService->sendGetStopsRequest();
 }, ValidationException::class);

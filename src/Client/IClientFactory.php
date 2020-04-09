@@ -8,8 +8,8 @@ use Psr\Http\Client\ClientInterface;
 
 interface IClientFactory
 {
-    /**
-     * @param array<string> $parameters
-     */
-    public function createClient(array $parameters = []): ClientInterface;
+	/**
+	 * @param array<string> $parameters
+	 */
+	public function createClient(array $parameters = []): ClientInterface;
 }

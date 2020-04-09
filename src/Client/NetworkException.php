@@ -10,8 +10,8 @@ use Psr\Http\Message\RequestInterface;
 
 class NetworkException extends ConnectException implements NetworkExceptionInterface
 {
-    public function getRequest(): RequestInterface
-    {
-        return parent::getRequest();
-    }
+	public function getRequest(): RequestInterface
+	{
+		return parent::getRequest();
+	}
 }

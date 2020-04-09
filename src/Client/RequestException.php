@@ -10,8 +10,8 @@ use Psr\Http\Message\RequestInterface;
 
 class RequestException extends GuzzleRequestException implements RequestExceptionInterface
 {
-    public function getRequest(): RequestInterface
-    {
-        return parent::getRequest();
-    }
+	public function getRequest(): RequestInterface
+	{
+		return parent::getRequest();
+	}
 }

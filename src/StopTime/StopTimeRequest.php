@@ -12,26 +12,26 @@ use Psr\Http\Message\ResponseInterface;
 
 class StopTimeRequest extends Request
 {
-    public const URL = 'gtfs/stoptimes';
+	public const URL = 'gtfs/stoptimes';
 
-    public function __construct(string $stopId, int $limit, int $offset, ?DateTimeImmutable $date = null)
-    {
-        $queryParameters = [
-            'limit' => $limit,
-            'offset' => $offset,
-        ];
+	public function __construct(string $stopId, int $limit, int $offset, ?DateTimeImmutable $date = null)
+	{
+		$queryParameters = [
+			'limit' => $limit,
+			'offset' => $offset,
+		];
 
-        if ($date !== null) {
-            $queryParameters['date'] = $date->format(DatetimeHelper::API_DATE_FORMAT);
-        }
+		if ($date !== null) {
+			$queryParameters['date'] = $date->format(DatetimeHelper::API_DATE_FORMAT);
+		}
 
-        $url = self::URL . '/' . $stopId;
+		$url = self::URL . '/' . $stopId;
 
-        parent::__construct(Request::METHOD_GET, $url, [], $queryParameters);
-    }
+		parent::__construct(Request::METHOD_GET, $url, [], $queryParameters);
+	}
 
-    public function processResponse(ResponseInterface $response): Response
-    {
-        return new StopTimeResponse($response);
-    }
+	public function processResponse(ResponseInterface $response): Response
+	{
+		return new StopTimeResponse($response);
+	}
 }

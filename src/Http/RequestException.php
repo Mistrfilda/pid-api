@@ -11,17 +11,21 @@ use Throwable;
 
 class RequestException extends Exception implements RequestExceptionInterface
 {
-    /** @var RequestInterface */
-    private $request;
+	/** @var RequestInterface */
+	private $request;
 
-    public function __construct(RequestInterface $request, string $message = '', int $code = 0, ?Throwable $previous = null)
-    {
-        parent::__construct($message, $code, $previous);
-        $this->request = $request;
-    }
+	public function __construct(
+		RequestInterface $request,
+		string $message = '',
+		int $code = 0,
+		?Throwable $previous = null
+	) {
+		parent::__construct($message, $code, $previous);
+		$this->request = $request;
+	}
 
-    public function getRequest(): RequestInterface
-    {
-        return $this->request;
-    }
+	public function getRequest(): RequestInterface
+	{
+		return $this->request;
+	}
 }

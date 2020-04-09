@@ -1,3 +1,37 @@
+services:
+  Symplify\CodingStandard\Sniffs\CleanCode\CognitiveComplexitySniff:
+    maxCognitiveComplexity: 12
+
+  Symplify\CodingStandard\Sniffs\Commenting\AnnotationTypeExistsSniff: ~
+
+  Symplify\CodingStandard\Fixer\Commenting\ParamReturnAndVarTagMalformsFixer: ~
+
+  Symplify\CodingStandard\Sniffs\Architecture\PreferredClassSniff:
+    oldToPreferredClasses:
+      DateTime: 'DateTimeImmutable'
+
+  Symplify\CodingStandard\Fixer\ArrayNotation\StandaloneLineInMultilineArrayFixer: ~
+
+  Symplify\CodingStandard\Fixer\Commenting\RemoveEmptyDocBlockFixer: ~
+
+  Symplify\CodingStandard\Fixer\Commenting\RemoveSuperfluousDocBlockWhitespaceFixer: ~
+
+  Symplify\CodingStandard\Fixer\ControlStructure\PregDelimiterFixer:
+    delimiter: '~'
+
+  Symplify\CodingStandard\Fixer\ControlStructure\RequireFollowedByAbsolutePathFixer: ~
+
+  Symplify\CodingStandard\Fixer\LineLength\LineLengthFixer:
+    max_line_length: 140
+    break_long_lines: true
+    inline_short_lines: false
+
+  Symplify\CodingStandard\Sniffs\CleanCode\ForbiddenReferenceSniff: ~
+
+  Symplify\CodingStandard\Sniffs\ControlStructure\ForbiddenDoubleAssignSniff: ~
+
+  Symplify\CodingStandard\Sniffs\Debug\DebugFunctionCallSniff: ~
+
 parameters:
   sets:
     - 'clean-code'
@@ -5,13 +39,11 @@ parameters:
     - 'php70'
     - 'php71'
     - 'common'
-    - 'php-cs-fixer-psr2'
     - 'dead-code'
     - 'types'
+
+  indentation: 'tab'
 
   file_extensions:
     - 'php'
     - 'phpt'
-
-  skip:
-    SlevomatCodingStandard\Sniffs\Exceptions\ReferenceThrowableOnlySniff: ~

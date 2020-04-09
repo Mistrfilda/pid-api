@@ -34,12 +34,17 @@
 		}
 	},
 	"scripts": {
+		"comload": "composer dump-autoload -o",
 		"stan": "vendor/bin/phpstan analyse -l max -c phpstan.neon src tests --ansi",
 		"lint": "vendor/bin/parallel-lint --colors src/ tests/",
 		"cs": "vendor/bin/ecs -c ecs.yaml check src tests --ansi",
 		"cs-fix": "vendor/bin/ecs -c ecs.yaml check src tests --fix --ansi",
 		"test": "vendor/bin/tester tests/ -C",
 		"test-coverage-html": "vendor/bin/tester tests/ -C --coverage coverage.html --coverage-src src/ ",
+		"build-all-local": [
+			"@comload",
+			"@build-all"
+		],
 		"build-all": [
 			"@lint",
 			"@stan",

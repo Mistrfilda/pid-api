@@ -10,20 +10,20 @@ use Psr\Http\Message\ResponseInterface;
 
 class StopRequest extends Request
 {
-    public const URL = 'gtfs/stops';
+	public const URL = 'gtfs/stops';
 
-    public function __construct(int $limit, int $offset)
-    {
-        $queryParameters = [
-            'limit' => $limit,
-            'offset' => $offset,
-        ];
+	public function __construct(int $limit, int $offset)
+	{
+		$queryParameters = [
+			'limit' => $limit,
+			'offset' => $offset,
+		];
 
-        parent::__construct(Request::METHOD_GET, self::URL, [], $queryParameters);
-    }
+		parent::__construct(Request::METHOD_GET, self::URL, [], $queryParameters);
+	}
 
-    public function processResponse(ResponseInterface $response): Response
-    {
-        return new StopResponse($response);
-    }
+	public function processResponse(ResponseInterface $response): Response
+	{
+		return new StopResponse($response);
+	}
 }

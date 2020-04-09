@@ -11,32 +11,32 @@ use Psr\Http\Message\ResponseInterface;
 
 abstract class Response
 {
-    public function __construct(ResponseInterface $response)
-    {
-        $bodyContents = $response->getBody()->getContents();
-        if ($bodyContents === '') {
-            throw new InvalidResponseException('Invalid response, content is empty');
-        }
+	public function __construct(ResponseInterface $response)
+	{
+		$bodyContents = $response->getBody()->getContents();
+		if ($bodyContents === '') {
+			throw new InvalidResponseException('Invalid response, content is empty');
+		}
 
-        $parsedResponse = Json::decode($bodyContents, Json::FORCE_ARRAY);
+		$parsedResponse = Json::decode($bodyContents, Json::FORCE_ARRAY);
 
-        $normalizedResponse = $this->validateResponse($parsedResponse);
-        $this->createFromArrayResponse($normalizedResponse);
-    }
+		$normalizedResponse = $this->validateResponse($parsedResponse);
+		$this->createFromArrayResponse($normalizedResponse);
+	}
 
-    /**
-     * @param mixed[] $response
-     * @return array<mixed, mixed>
-     */
-    protected function validateResponse(array $response): array
-    {
-        return (new Processor())->process($this->getResponseSchema(), $response);
-    }
+	/**
+	 * @param mixed[] $response
+	 * @return array<mixed, mixed>
+	 */
+	protected function validateResponse(array $response): array
+	{
+		return (new Processor())->process($this->getResponseSchema(), $response);
+	}
 
-    /**
-     * @param array<mixed, mixed> $response
-     */
-    abstract protected function createFromArrayResponse(array $response): void;
+	/**
+	 * @param array<mixed, mixed> $response
+	 */
+	abstract protected function createFromArrayResponse(array $response): void;
 
-    abstract protected function getResponseSchema(): Schema;
+	abstract protected function getResponseSchema(): Schema;
 }
