@@ -72,7 +72,7 @@ class VehiclePositionResponse extends Response
 					'last_position' => Expect::structure([
 						'bearing' => Expect::int(),
 						'delay' => Expect::structure([
-							'actual' => Expect::int(),
+							'actual' => Expect::int()->nullable(),
 							'last_stop_arrival' => Expect::int()->nullable(),
 							'last_stop_departure' => Expect::int()->nullable(),
 						])->castTo('array'),

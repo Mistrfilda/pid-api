@@ -62,7 +62,7 @@ class VehiclePosition
 		?int $vehicleType,
 		int $vehicleRegistrationNumber,
 		bool $wheelchairAccessible,
-		int $delay,
+		?int $delay,
 		string $lastStopId,
 		string $nextStopId,
 		string $tripHeadsign
@@ -77,7 +77,7 @@ class VehiclePosition
 		$this->vehicleType = $vehicleType;
 		$this->vehicleRegistrationNumber = $vehicleRegistrationNumber;
 		$this->wheelchairAccessible = $wheelchairAccessible;
-		$this->delay = $delay;
+		$this->delay = $delay === null ? 0 : $delay;
 		$this->lastStopId = $lastStopId;
 		$this->nextStopId = $nextStopId;
 		$this->tripHeadsign = $tripHeadsign;

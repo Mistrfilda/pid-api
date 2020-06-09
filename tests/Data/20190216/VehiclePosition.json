@@ -65,6 +65,72 @@
 				}
 			},
 			"type": "Feature"
+		},
+		{
+			"geometry": {
+				"coordinates": [
+					14.32633,
+					49.7163
+				],
+				"type": "Point"
+			},
+			"properties": {
+				"last_position": {
+					"bearing": 223,
+					"delay": {
+						"actual": null,
+						"last_stop_arrival": null,
+						"last_stop_departure": 161
+					},
+					"is_canceled": false,
+					"last_stop": {
+						"arrival_time": "2020-02-17T23:50:00.000Z",
+						"departure_time": "2020-02-17T23:50:00.000Z",
+						"id": "U4748Z1",
+						"sequence": 28
+					},
+					"next_stop": {
+						"arrival_time": "2020-02-17T23:52:00.000Z",
+						"departure_time": "2020-02-17T23:52:00.000Z",
+						"id": "U4749Z1",
+						"sequence": 29
+					},
+					"origin_timestamp": "2020-02-17T23:53:15.000Z",
+					"shape_dist_traveled": "47.1",
+					"speed": 38
+				},
+				"trip": {
+					"agency_name": {
+						"real": "ARRIVA StřČ Sedlčany",
+						"scheduled": "ARRIVA StřČ Sedlčany"
+					},
+					"cis": {
+						"line_id": "100361",
+						"trip_number": 1040
+					},
+					"gtfs": {
+						"route_id": "L361",
+						"route_short_name": "361",
+						"trip_headsign": "Sedlčany,aut.st.",
+						"trip_id": "360_57_191204"
+					},
+					"origin_route_name": "361",
+					"sequence_id": 13,
+					"start_timestamp": "2020-02-17T22:45:00.000Z",
+					"vehicle_registration_number": 9507,
+					"vehicle_type": {
+						"description_cs": "regionální autobus",
+						"description_en": "regional bus",
+						"id": 4
+					},
+					"wheelchair_accessible": true
+				},
+				"all_positions": {
+					"features": [],
+					"type": "FeatureCollection"
+				}
+			},
+			"type": "Feature"
 		}
 	],
 	"type": "FeatureCollection"

@@ -27,10 +27,12 @@ $pidService = new PidService('aaaa', 'http://ofce.cz', $clientFactoryMock);
 
 $vehiclePositionResponse = $pidService->sendGetVehiclePositionRequest();
 
-Assert::equal($vehiclePositionResponse->getCount(), 1);
+Assert::equal($vehiclePositionResponse->getCount(), 2);
 $vehiclePositions = $vehiclePositionResponse->getVehiclePositions();
 Assert::count($vehiclePositionResponse->getCount(), $vehiclePositions);
 
 Assert::equal(49.7164, $vehiclePositions[0]->getLatitude());
 Assert::equal(14.32664, $vehiclePositions[0]->getLongitude());
 Assert::equal(true, $vehiclePositions[0]->getWheelchairAccessible());
+
+Assert::equal(0, $vehiclePositions[1]->getDelay());
