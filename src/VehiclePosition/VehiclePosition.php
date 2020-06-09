@@ -39,10 +39,10 @@ class VehiclePosition
 	/** @var int */
 	private $delay;
 
-	/** @var string */
+	/** @var string|null */
 	private $lastStopId;
 
-	/** @var string */
+	/** @var string|null */
 	private $nextStopId;
 
 	/** @var string */
@@ -63,8 +63,8 @@ class VehiclePosition
 		int $vehicleRegistrationNumber,
 		bool $wheelchairAccessible,
 		?int $delay,
-		string $lastStopId,
-		string $nextStopId,
+		?string $lastStopId,
+		?string $nextStopId,
 		string $tripHeadsign
 	) {
 		$this->latitude = $latitude;
@@ -133,12 +133,12 @@ class VehiclePosition
 		return $this->delay;
 	}
 
-	public function getLastStopId(): string
+	public function getLastStopId(): ?string
 	{
 		return $this->lastStopId;
 	}
 
-	public function getNextStopId(): string
+	public function getNextStopId(): ?string
 	{
 		return $this->nextStopId;
 	}
