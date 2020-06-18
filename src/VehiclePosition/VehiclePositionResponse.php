@@ -70,7 +70,7 @@ class VehiclePositionResponse extends Response
 				])->castTo('array'),
 				'properties' => Expect::structure([
 					'last_position' => Expect::structure([
-						'bearing' => Expect::int(),
+						'bearing' => Expect::int()->nullable(),
 						'delay' => Expect::structure([
 							'actual' => Expect::int()->nullable(),
 							'last_stop_arrival' => Expect::int()->nullable(),
@@ -111,7 +111,7 @@ class VehiclePositionResponse extends Response
 						'origin_route_name' => Expect::string(),
 						'sequence_id' => Expect::int(),
 						'start_timestamp' => Expect::string(),
-						'vehicle_registration_number' => Expect::int(),
+						'vehicle_registration_number' => Expect::int()->nullable(),
 						'vehicle_type' => Expect::structure([
 							'description_cs' => Expect::string(),
 							'description_en' => Expect::string(),
