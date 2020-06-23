@@ -48,6 +48,12 @@ class VehiclePosition
 	/** @var string */
 	private $tripHeadsign;
 
+	/** @var int|null */
+	private $speed;
+
+	/** @var bool|null */
+	private $tracking;
+
 	/**
 	 * VehiclePosition constructor.
 	 */
@@ -65,7 +71,9 @@ class VehiclePosition
 		?int $delay,
 		?string $lastStopId,
 		?string $nextStopId,
-		string $tripHeadsign
+		string $tripHeadsign,
+		?int $speed,
+		?bool $tracking
 	) {
 		$this->latitude = $latitude;
 		$this->longitude = $longitude;
@@ -81,6 +89,8 @@ class VehiclePosition
 		$this->lastStopId = $lastStopId;
 		$this->nextStopId = $nextStopId;
 		$this->tripHeadsign = $tripHeadsign;
+		$this->speed = $speed;
+		$this->tracking = $tracking;
 	}
 
 	public function getLatitude(): float
@@ -151,5 +161,15 @@ class VehiclePosition
 	public function getTripHeadsign(): string
 	{
 		return $this->tripHeadsign;
+	}
+
+	public function getSpeed(): ?int
+	{
+		return $this->speed;
+	}
+
+	public function getTracking(): ?bool
+	{
+		return $this->tracking;
 	}
 }

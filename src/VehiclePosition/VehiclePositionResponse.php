@@ -52,6 +52,8 @@ class VehiclePositionResponse extends Response
 				$vehiclePosition['properties']['last_position']['last_stop']['id'],
 				$vehiclePosition['properties']['last_position']['next_stop']['id'],
 				$vehiclePosition['properties']['trip']['gtfs']['trip_headsign'],
+				$vehiclePosition['properties']['last_position']['speed'],
+				$vehiclePosition['properties']['last_position']['tracking'],
 			);
 
 			$count++;
@@ -91,7 +93,8 @@ class VehiclePositionResponse extends Response
 						])->castTo('array'),
 						'origin_timestamp' => Expect::string(),
 						'shape_dist_traveled' => Expect::string()->nullable(),
-						'speed' => Expect::anyOf(Expect::int(), Expect::float())->nullable(),
+						'speed' => Expect::anyOf(Expect::int(), Expect::float())->castTo('int')->nullable(),
+						'tracking' => Expect::bool()->nullable(),
 					])->castTo('array'),
 					'trip' => Expect::structure([
 						'agency_name' => Expect::structure([
