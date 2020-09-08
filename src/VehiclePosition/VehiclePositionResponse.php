@@ -102,8 +102,8 @@ class VehiclePositionResponse extends Response
 							'scheduled' => Expect::string(),
 						])->castTo('array'),
 						'cis' => Expect::structure([
-							'line_id' => Expect::string(),
-							'trip_number' => Expect::int(),
+							'line_id' => Expect::string()->nullable(),
+							'trip_number' => Expect::int()->nullable(),
 						])->castTo('array'),
 						'gtfs' => Expect::structure([
 							'route_id' => Expect::string(),
@@ -116,8 +116,8 @@ class VehiclePositionResponse extends Response
 						'start_timestamp' => Expect::string(),
 						'vehicle_registration_number' => Expect::int()->nullable(),
 						'vehicle_type' => Expect::structure([
-							'description_cs' => Expect::string(),
-							'description_en' => Expect::string(),
+							'description_cs' => Expect::string()->nullable(),
+							'description_en' => Expect::string()->nullable(),
 							'id' => Expect::int(),
 						])->castTo('array'),
 						'wheelchair_accessible' => Expect::bool(),
