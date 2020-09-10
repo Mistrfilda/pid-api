@@ -14,7 +14,7 @@ use Mistrfilda\Pid\Api\Client\GuzzlePsr18Client;
 use Mistrfilda\Pid\Api\Client\IClientFactory;
 use Mistrfilda\Pid\Api\Client\NetworkException;
 use Mistrfilda\Pid\Api\Client\RequestException;
-use Mistrfilda\Pid\Api\PidService;
+use Mistrfilda\Pid\Api\GolemioService;
 use Mistrfilda\Pid\Test\Data\TestDataGetter;
 use Nette\Utils\FileSystem;
 use Tester\Assert;
@@ -35,7 +35,7 @@ $mockedGuzzleClient = new GuzzlePsr18Client(['handler' => HandlerStack::create($
 $clientFactoryMock = Mockery::mock(IClientFactory::class);
 $clientFactoryMock->shouldReceive('createClient')->andReturn($mockedGuzzleClient);
 
-$pidService = new PidService('aaaa', 'http://ofce.cz', $clientFactoryMock);
+$pidService = new GolemioService('aaaa', 'http://ofce.cz', $clientFactoryMock);
 
 Assert::noError(function () use ($pidService): void {
 	$pidService->sendGetStopsRequest();
