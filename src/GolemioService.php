@@ -22,7 +22,7 @@ use Mistrfilda\Pid\Api\VehiclePosition\VehiclePositionRequest;
 use Mistrfilda\Pid\Api\VehiclePosition\VehiclePositionResponse;
 use Psr\Http\Client\ClientInterface;
 
-class PidService
+class GolemioService
 {
 	public const BASE_URI = 'https://api.golemio.cz/v2';
 
