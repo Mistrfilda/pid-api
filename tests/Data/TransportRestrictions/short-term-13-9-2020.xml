@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+     xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+>
+    <channel>
+        <title>Pražská integrovaná doprava - Mimořádnosti</title>
+        <atom:link href="https://pid.cz/feed/rss-mimoradnosti" rel="self" type="application/rss+xml"/>
+        <link>https://pid.cz</link>
+        <description></description>
+        <lastBuildDate>Mon, 14 Sep 2020 09:40:34 +0000</lastBuildDate>
+        <language></language>
+        <sy:updatePeriod>minutely</sy:updatePeriod>
+        <sy:updateFrequency>3</sy:updateFrequency>
+        <generator>https://wordpress.org/?v=4.8.14</generator>
+        <item>
+            <title>Strossmayerovo náměstí (od zastávky Vltavská) - Provoz omezen, Zpoždění spojů</title>
+            <link>https://pid.cz/mimoradnost/?id=11315-1</link>
+            <pubDate></pubDate>
+            <guid isPermaLink="false">11315-1</guid>
+            <description><![CDATA[14.9. 09:29 - do&nbsp;odvolání; Dotčené linky: 1, 12, 25]]></description>
+            <content:encoded><![CDATA[]]></content:encoded>
+        </item>
+        <item>
+            <title>Obchodní centrum Čakovice - Třeboradice - Neodjetí spoje</title>
+            <link>https://pid.cz/mimoradnost/?id=3589-4</link>
+            <pubDate></pubDate>
+            <guid isPermaLink="false">3589-4</guid>
+            <description><![CDATA[14.9. 08:25 - 14.9. 09:41; Dotčené linky: 166]]></description>
+            <content:encoded><![CDATA[]]></content:encoded>
+        </item>
+        <item>
+            <title>V Podbabě – Podhoří - Provoz omezen</title>
+            <link>https://pid.cz/mimoradnost/?id=9447-2</link>
+            <pubDate></pubDate>
+            <guid isPermaLink="false">9447-2</guid>
+            <description><![CDATA[14.9. 05:41 - do&nbsp;odvolání; Dotčené linky: P2]]></description>
+            <content:encoded><![CDATA[]]></content:encoded>
+        </item>
+        <item>
+            <title>zpoždění v autobusové síti DPP - Zpoždění spojů</title>
+            <link>https://pid.cz/mimoradnost/?id=11312-1</link>
+            <pubDate></pubDate>
+            <guid isPermaLink="false">11312-1</guid>
+            <description>
+                <![CDATA[14.9. 07:00 - do&nbsp;odvolání; Dotčené linky: 124, 129, 135, 136, 139, 140, 165, 175, 177, 180, 181, 182, 183, 184, 193, 195, 201, 225, 241, 244, 250, 340, 347, 351, 364]]></description>
+            <content:encoded><![CDATA[]]></content:encoded>
+        </item>
+        <item>
+            <title>Kostelec n. L., žel. st. - Zrušení zastávky</title>
+            <link>https://pid.cz/mimoradnost/?id=3347-4</link>
+            <pubDate></pubDate>
+            <guid isPermaLink="false">3347-4</guid>
+            <description><![CDATA[19.8. 08:12 - do&nbsp;odvolání; Dotčené linky: 377]]></description>
+            <content:encoded><![CDATA[]]></content:encoded>
+        </item>
+    </channel>
+</rss>
