@@ -79,7 +79,16 @@ class LongTermTransportRestrictionService
 			'guid' => Expect::string(),
 			'date' => Expect::string(),
 			'dateFrom' => Expect::string()->castTo('int'),
-			'dateTo' => Expect::anyOf(Expect::string(), Expect::type('object'))->castTo('int')->nullable(),
+			'dateTo' => Expect::int()->nullable()->before(
+				function ($value): ?int {
+					$value = (int) $value;
+					if ($value === 0) {
+						return null;
+					}
+
+					return $value;
+				}
+			),
 			'pubDate' => Expect::string(),
 			'priority' => Expect::string()->castTo('int'),
 			'lines' => Expect::type('object')->castTo('array'),
