@@ -12,6 +12,8 @@ use Mistrfilda\Pid\Api\Http\Request\Request;
 use Mistrfilda\Pid\Api\Http\Response\InvalidResponseException;
 use Mistrfilda\Pid\Api\Http\Response\Response;
 use Mistrfilda\Pid\Api\Http\UrlFactory;
+use Mistrfilda\Pid\Api\Parking\ParkingLot\ParkingLotRequest;
+use Mistrfilda\Pid\Api\Parking\ParkingLot\ParkingLotResponse;
 use Mistrfilda\Pid\Api\Stop\StopRequest;
 use Mistrfilda\Pid\Api\Stop\StopResponse;
 use Mistrfilda\Pid\Api\StopTime\StopTimeRequest;
@@ -112,6 +114,18 @@ class GolemioService
 		$response = $this->sendRequest($request);
 
 		if (! $response instanceof VehiclePositionResponse) {
+			throw new InvalidResponseException('Invalid response returned from request');
+		}
+
+		return $response;
+	}
+
+	public function sendGetParkingLotRequest(): ParkingLotResponse
+	{
+		$request = new ParkingLotRequest();
+		$response = $this->sendRequest($request);
+
+		if (! $response instanceof ParkingLotResponse) {
 			throw new InvalidResponseException('Invalid response returned from request');
 		}
 
