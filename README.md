@@ -48,4 +48,4 @@ $rssService = new \Mistrfilda\Pid\Api\RssService();
 More info about rss feeds can be found here https://pid.cz/rss-kanal/.
 
 - Planned transport restrictions - long term (https://pid.cz/feed/rss-vyluky) - ```$rssService->getLongTermRestrictions()```
-- Current transport restrictions - short term - ```$rssService->getShortTermRestrictions()```
+- Current transport restrictions - short term (https://pid.cz/feed/rss-mimoradnosti) - ```$rssService->getShortTermRestrictions()```
