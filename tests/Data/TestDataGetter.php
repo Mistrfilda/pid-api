@@ -13,5 +13,8 @@ class TestDataGetter
 			'trip' => __DIR__ . '/20190216/Trips.json',
 			'vehiclePosition' => __DIR__ . '/20190216/VehiclePosition.json',
 		],
+		'20200921' => [
+			'parkingLot' => __DIR__ . '/20200921/parkingLots.json',
+		],
 	];
 }
