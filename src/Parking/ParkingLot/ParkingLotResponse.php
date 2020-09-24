@@ -79,7 +79,7 @@ class ParkingLotResponse extends Response
 					'num_of_taken_places' => Expect::int(),
 					'payment_link' => Expect::string()->nullable(),
 					'average_occupancy' => Expect::arrayOf(Expect::mixed()),
-				])->otherItems(Expect::anyOf(Expect::int(), Expect::string(), Expect::float()))->castTo('array'),
+				])->otherItems(Expect::anyOf(Expect::int(), Expect::string(), Expect::float(), Expect::null()))->castTo('array'),
 				'type' => Expect::string(),
 			])->castTo('array')),
 			'type' => Expect::string(),
