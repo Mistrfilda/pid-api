@@ -73,7 +73,9 @@ class ParkingLotResponse extends Response
 						'id' => Expect::int(),
 					])->castTo('array'),
 					'name' => Expect::string(),
-					'last_updated' => Expect::int(),
+					'last_updated' => Expect::int()->before(function ($value): int {
+						return (int) $value;
+					}),
 					'total_num_of_places' => Expect::int(),
 					'num_of_free_places' => Expect::int(),
 					'num_of_taken_places' => Expect::int(),
