@@ -6,7 +6,7 @@
 		"php": ">=7.3",
 		"ext-simplexml": "*",
 		"ext-json": "*",
-		"guzzlehttp/guzzle": "^6.3",
+		"guzzlehttp/guzzle": "^6.3 || ^7.0",
 		"nette/utils": "^3.0",
 		"nette/schema": "^1.0",
 		"psr/http-message": "^1.0",
