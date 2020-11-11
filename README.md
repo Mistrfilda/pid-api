@@ -33,7 +33,7 @@ Each response returns data value object with obtained response. For example, get
 | GTFS trips        | https://golemioapi.docs.apiary.io/#reference/public-transport/gtfs-trips/get-all-gtfs-trips               | ```$golemioService->sendGetStopTripsRequest();```       |
 | GTFS stoptimes    | https://golemioapi.docs.apiary.io/#reference/public-transport/gtfs-stops-times/get-gtfs-stop-times        | ```$golemioService->sendGetStopTimesRequest();```       |
 | Vehicle positions | https://golemioapi.docs.apiary.io/#reference/public-transport/vehicle-positions/get-all-vehicle-positions | ```$golemioService->sendGetVehiclePositionRequest();``` |
-| Parkings          | https://golemioapi.docs.apiary.io/#reference/parking/parking-lots/get-all-parking-lots                    | ```$golemioService->sendGetParkingLotRequest```         |
+| Parkings          | https://golemioapi.docs.apiary.io/#reference/parking/parking-lots/get-all-parking-lots                    | ```$golemioService->sendGetParkingLotRequest();```         |
 
 ## RSS feeds
 
