@@ -54,6 +54,12 @@ class VehiclePosition
 	/** @var bool|null */
 	private $tracking;
 
+	/** @var int */
+	private $routeType;
+
+	/** @var string */
+	private $updatedAt;
+
 	/**
 	 * VehiclePosition constructor.
 	 */
@@ -73,7 +79,9 @@ class VehiclePosition
 		?string $nextStopId,
 		string $tripHeadsign,
 		?int $speed,
-		?bool $tracking
+		?bool $tracking,
+		int $routeType,
+		string $updatedAt
 	) {
 		$this->latitude = $latitude;
 		$this->longitude = $longitude;
@@ -91,6 +99,8 @@ class VehiclePosition
 		$this->tripHeadsign = $tripHeadsign;
 		$this->speed = $speed;
 		$this->tracking = $tracking;
+		$this->routeType = $routeType;
+		$this->updatedAt = $updatedAt;
 	}
 
 	public function getLatitude(): float
@@ -171,5 +181,15 @@ class VehiclePosition
 	public function getTracking(): ?bool
 	{
 		return $this->tracking;
+	}
+
+	public function getRouteType(): int
+	{
+		return $this->routeType;
+	}
+
+	public function getUpdatedAt(): string
+	{
+		return $this->updatedAt;
 	}
 }

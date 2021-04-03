@@ -54,6 +54,8 @@ class VehiclePositionResponse extends Response
 				$vehiclePosition['properties']['trip']['gtfs']['trip_headsign'],
 				$vehiclePosition['properties']['last_position']['speed'],
 				$vehiclePosition['properties']['last_position']['tracking'],
+				$vehiclePosition['properties']['trip']['gtfs']['route_type'],
+				$vehiclePosition['properties']['trip']['updated_at']
 			);
 
 			$count++;
@@ -110,10 +112,12 @@ class VehiclePositionResponse extends Response
 							'route_short_name' => Expect::string(),
 							'trip_headsign' => Expect::string(),
 							'trip_id' => Expect::string(),
+							'route_type' => Expect::int(),
 						])->castTo('array'),
 						'origin_route_name' => Expect::string(),
 						'sequence_id' => Expect::int(),
 						'start_timestamp' => Expect::string(),
+						'updated_at' => Expect::string(),
 						'vehicle_registration_number' => Expect::int()->nullable(),
 						'vehicle_type' => Expect::structure([
 							'description_cs' => Expect::string()->nullable(),

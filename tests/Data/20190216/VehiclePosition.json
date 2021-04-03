@@ -46,11 +46,13 @@
 						"route_id": "L360",
 						"route_short_name": "360",
 						"trip_headsign": "Sedlčany,aut.st.",
-						"trip_id": "360_57_191202"
+						"trip_id": "360_57_191202",
+						"route_type": 0
 					},
 					"origin_route_name": "360",
 					"sequence_id": 13,
 					"start_timestamp": "2020-02-17T22:45:00.000Z",
+					"updated_at": "2020-02-17T22:45:00.000Z",
 					"vehicle_registration_number": 9507,
 					"vehicle_type": {
 						"description_cs": "regionální autobus",
@@ -112,11 +114,13 @@
 						"route_id": "L361",
 						"route_short_name": "361",
 						"trip_headsign": "Sedlčany,aut.st.",
-						"trip_id": "360_57_191204"
+						"trip_id": "360_57_191204",
+						"route_type": 0
 					},
 					"origin_route_name": "361",
 					"sequence_id": 13,
 					"start_timestamp": "2020-02-17T22:45:00.000Z",
+					"updated_at": "2020-02-17T22:45:00.000Z",
 					"vehicle_registration_number": 9507,
 					"vehicle_type": {
 						"description_cs": "regionální autobus",
@@ -178,11 +182,13 @@
 						"route_id": "L361",
 						"route_short_name": "361",
 						"trip_headsign": "Sedlčany,aut.st.",
-						"trip_id": "360_57_191205"
+						"trip_id": "360_57_191205",
+						"route_type": 0
 					},
 					"origin_route_name": "361",
 					"sequence_id": 13,
 					"start_timestamp": "2020-02-17T22:45:00.000Z",
+					"updated_at": "2020-02-17T22:45:00.000Z",
 					"vehicle_registration_number": 9507,
 					"vehicle_type": {
 						"description_cs": "regionální autobus",
