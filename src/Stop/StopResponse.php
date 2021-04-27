@@ -36,6 +36,10 @@ class StopResponse extends Response
 	{
 		$count = 0;
 		foreach ($response['features'] as $stop) {
+			if ($stop['properties']['stop_name'] === null) {
+				continue;
+			}
+
 			$this->stops[] = new Stop(
 				$stop['properties']['stop_id'],
 				$stop['geometry']['coordinates'][1],
@@ -66,7 +70,7 @@ class StopResponse extends Response
 					'stop_id' => Expect::string(),
 					'stop_lat' => Expect::anyOf(Expect::int(), Expect::float())->castTo('float'),
 					'stop_lon' => Expect::anyOf(Expect::int(), Expect::float())->castTo('float'),
-					'stop_name' => Expect::string(),
+					'stop_name' => Expect::string()->nullable(),
 					'stop_timezone' => Expect::string()->nullable(),
 					'stop_url' => Expect::string()->nullable(),
 					'wheelchair_boarding' => Expect::int()->nullable(),
@@ -77,7 +81,7 @@ class StopResponse extends Response
 					'update_batch_id' => Expect::string()->nullable(),
 					'updated_at' => Expect::string()->nullable(),
 					'updated_by' => Expect::string()->nullable(),
-				])->castTo('array'),
+				])->otherItems(Expect::mixed())->castTo('array'),
 				'type' => Expect::string(),
 			])->castTo('array')),
 			'type' => Expect::string(),
